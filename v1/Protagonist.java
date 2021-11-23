@@ -1,18 +1,3 @@
-// public class Protagonist extends Character{
-//
-//   public String getName(){
-//     return nombre;
-//   }
-//
-//   public void specialize(){
-//
-//   }
-//   public void normalize(){
-//
-//   }
-// }
-
-
 public class Protagonist extends Character{
 
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
@@ -22,7 +7,6 @@ public class Protagonist extends Character{
     private int _defense;
     private double _attack;
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 
     /**
@@ -59,6 +43,7 @@ public class Protagonist extends Character{
         _defense = 20;
     }
 
+    
     //revert to normal mode
     public void normalize() {
         _attack = .4;

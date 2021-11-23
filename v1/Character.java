@@ -5,8 +5,6 @@ public class Character {
   private double _attack;
 
 
-
-
   public boolean isAlive() {
     return _hitPts > 0;
   }
@@ -16,10 +14,12 @@ public class Character {
     return _defense;
   }
 
+  
   public void lowerHP(int damageTaken){
     _hitPts -= damageTaken;
   }
 
+  
   public int attack( Character opponent ) {
 
     int damage = (int)( (_strength * _attack) - opponent.getDefense() );
@@ -34,12 +34,6 @@ public class Character {
   }//end attack
 
 }
-
-
-
-
-
-
 
 
 /*
