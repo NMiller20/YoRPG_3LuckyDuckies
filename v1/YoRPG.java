@@ -1,4 +1,5 @@
 /**********************************************
+
 3 Lucky Duckies - Ziying Jian, Nora Miller, Gloria Lee
 APCS
 Lab01 -- An Adventurer is You!
@@ -18,6 +19,7 @@ QCC:
 * What functionality does java.io and java.util each provide?
 * When would you employ try...catch... blocks?
 * What does IOException do? What happens after an exception is caught?
+
  **********************************************/
 
 import java.io.*;
