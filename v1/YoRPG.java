@@ -1,24 +1,23 @@
 /**********************************************
- * class YoRPG -- Driver file for Ye Olde Role Playing Game.
- * Simulates monster encounters of a wandering adventurer.
- * Required classes: Protagonist, Monster
- *
- * USAGE:
- * Compile. Note messages generated.
- * Devise a plan of attack with your trio.
- * Code incrementally, testing each bit of new functionality as you go.
- * The only modification you should make to this driver file is moving comment bar down in main method, and filling in DISCO/QCC
- * (If you feel other changes are merited, note what and why, so that we may discuss on the 'morrow.)
- *
- * DISCO: First, we should create classes of Protagonist and Monster and class constructors for Protagonist. The protagonist constructor would take input name (String).
- Scanners are also initiated in the code, which means that we will need a separate file that contains text to scan.
- The code also calls on pat.specialize() and pat.normalize() which will be methods that we will have to code for. I also notice an attack method that we will have to code.
- *
- * QCC:
- * What is the purpose of  catch ( IOException e ) { }?
- * What is the purpose/difference of having an input stream reader as well as a buffered reader?
- * What are things to be careful of when using break in code?
- *
+3 Lucky Duckies - Ziying Jian, Nora Miller, Gloria Lee
+APCS
+Lab01 -- An Adventurer is You!
+2021-11-22
+time spent: 1.5 hrs
+
+DISCO:
+* Having a try...catch... block is good standard convention for accounting for errors in user input
+* extends - copies the functionality of the parent class into the subclass
+* versus creating an instance of the class
+* You can check not just an arithmetic expression but also for an instance of a class
+* Default constructors can be used to initialize instance vars
+* private Monster smaug stores an instance of a class as an object
+
+
+QCC:
+* What functionality does java.io and java.util each provide?
+* When would you employ try...catch... blocks?
+* What does IOException do? What happens after an exception is caught?
  **********************************************/
 
 import java.io.*;
