@@ -109,19 +109,20 @@ public class YoRPG {
 
     try {
 	    name = in.readLine();
+      if(type.equals("bruiser")){
+        pat = new Bruiser(name);
+      }
+      else if(type.equals("tank")){
+        pat = new Tank(name);
+      }
+      else if(type.equals("mage")){
+        pat = new Mage(name);
+      }
+
     }
     catch ( IOException e ) { }
 
 
-    if(type.equals("bruiser")){
-      pat = new Bruiser(name);
-    }
-    else if(type.equals("tank")){
-      pat = new Tank(name);
-    }
-    else if(type.equals("mage")){
-      pat = new Mage(name);
-    }
 
 
   }//end newGame()
