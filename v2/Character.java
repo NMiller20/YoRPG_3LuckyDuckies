@@ -1,8 +1,8 @@
 public class Character {
-  private int _hitPts; // same as health
-  private int _strength;
-  private int _defense;
-  private double _attack;
+  protected int _hitPts; // same as health
+  protected int _strength;
+  protected int _defense;
+  protected double _attack;
 
 
   public boolean isAlive() {
@@ -14,12 +14,12 @@ public class Character {
     return _defense;
   }
 
-  
+
   public void lowerHP(int damageTaken){
     _hitPts -= damageTaken;
   }
 
-  
+
   public int attack( Character opponent ) {
 
     int damage = (int)( (_strength * _attack) - opponent.getDefense() );
