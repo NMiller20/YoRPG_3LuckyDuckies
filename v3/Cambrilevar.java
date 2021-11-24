@@ -1,4 +1,4 @@
-public class Cambrilevar extends Character {
+public class Cambrilevar extends Monster {
 
     public static String about(){
         String s = "ABOUT:";
