@@ -13,6 +13,13 @@ public static String about(){
         System.out.println(about());
     }//end main
 
+    public Imperiphor() {
+	_hitPts = 150;
+      _strength = 20 + (int)( Math.random() * 45 ); // [20,65)
+      _defense = 20;
+      _attack = 1;
+    }
+
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
 
   }//end class

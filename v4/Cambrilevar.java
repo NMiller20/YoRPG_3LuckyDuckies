@@ -12,6 +12,14 @@ public class Cambrilevar extends Monster {
         System.out.println(about());
     }//end main
 
+    public Cambrilevar() {
+	_hitPts = 325;
+	_strength = 3 + (int)( Math.random() * 41); // [3, 41)
+	_defense = 35;
+	_attackRating = .6;
+     }
+    }
+
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
 
 
