@@ -68,7 +68,7 @@ public class YoRPG {
   public void newGame() {
     String s;
     String name = "";
-    String type = "null";
+    String type ;
     s = "~~~ Welcome to Ye Olde RPG! ~~~\n";
 
     s += "\nChoose your difficulty: \n";
@@ -91,13 +91,13 @@ public class YoRPG {
       //instantiate the player's character
       type = in.readLine();
       type = type.toLowerCase();
-      if(type == "bruiser"){
+      if(type.equals("bruiser")){
         Bruiser pat = new Bruiser();
       }
-      else if(type == "tank"){
+      else if(type.equals("tank")){
         Tank pat = new Tank();
       }
-      else if(type == "mage"){
+      else if(type.equals("mage")){
         Mage pat = new Mage();
       }
 
@@ -113,13 +113,13 @@ public class YoRPG {
     catch ( IOException e ) { }
 
 
-    if(type == "bruiser"){
+    if(type.equals("bruiser")){
       pat = new Bruiser(name);
     }
-    else if(type == "tank"){
+    else if(type.equals("tank")){
       pat = new Tank(name);
     }
-    else if(type == "mage"){
+    else if(type.equals("mage")){
       pat = new Mage(name);
     }
 
