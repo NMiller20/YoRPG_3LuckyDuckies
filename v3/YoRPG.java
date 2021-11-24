@@ -68,6 +68,7 @@ public class YoRPG {
   public void newGame() {
     String s;
     String name = "";
+    String type;
     s = "~~~ Welcome to Ye Olde RPG! ~~~\n";
 
     s += "\nChoose your difficulty: \n";
@@ -88,7 +89,7 @@ public class YoRPG {
 
     try{
       //instantiate the player's character
-      String type = in.readLine();
+      type = in.readLine();
       type = type.toLowerCase();
       if(type == "bruiser"){
         Bruiser pat = new Bruiser();
