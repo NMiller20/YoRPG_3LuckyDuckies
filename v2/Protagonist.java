@@ -1,6 +1,6 @@
 public class Protagonist extends Character{
 
-  private String _name = "J. Doe";
+  protected String _name = "J. Doe";
 
     /**
       default constructor
