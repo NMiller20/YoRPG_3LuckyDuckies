@@ -7,6 +7,11 @@
  * Modified Protagonist.java and Monster.java to be subclasses on Character.java
  * Added methods isAlive, getDefense, lowerHP, and attack to Character.java.
  
+ v1 to v2 changes:
+ * Created subclasses of Protagonist: Bruiser, Tank, and Mage
+ * Created subclasses of Monster: Salvisanguin, Imperiphor, Cambrilevar
+ * Cleaned up all Protagonist/Monster subclasses so that their code does not override methods/instance vars originally declared in Protagonist/Monster/Character.java
+ * Created about methods for all subclasses.
 
 TO DO LIST FOR US!!
 - DISCO / QCC
