@@ -8,9 +8,9 @@ public class Tank extends Protagonist{
       **/
     public Tank() {
       _name = "Tank";
-        _hitPts = 250;
+        _hitPts = 200;
         _strength = 75;
-        _defense = 80;
+        _defense = 60;
         _attackRating = 1;
     }
 

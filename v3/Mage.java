@@ -11,7 +11,7 @@ public class Mage extends Protagonist{
       _name = "Mage";
         _hitPts = 100;
         _strength = 175;
-        _defense = 40;
+        _defense = 20;
         _attackRating = 1;
     }
 
@@ -38,7 +38,7 @@ public class Mage extends Protagonist{
     //revert to normal mode
     public void normalize() {
         _attackRating = 1;
-        _defense = 40;
+        _defense = 20;
     }
 
     public static String about(){

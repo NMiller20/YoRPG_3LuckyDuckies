@@ -136,14 +136,17 @@ public class YoRPG {
       int dice = (int)(Math.random()*3);
       if (dice == 0){
         smaug = new Salvisanguin();
+        System.out.println("new Salvisanguin!");
       }
       else if(dice ==1){
         smaug = new Cambrilevar();
+        System.out.println("new Cambrilevar!");
       }
       else{
         smaug = new Imperiphor();
+        System.out.println("new Imperaphor!");
       }
-	   
+
 
 	    while( smaug.isAlive() && pat.isAlive() ) {
 

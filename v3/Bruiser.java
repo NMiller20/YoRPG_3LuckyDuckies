@@ -11,7 +11,7 @@ public class Bruiser extends Protagonist{
       _name = "Bruiser";
         _hitPts = 150;
         _strength = 125;
-        _defense = 50;
+        _defense = 25;
         _attackRating = .4;
     }
 
@@ -30,14 +30,14 @@ public class Bruiser extends Protagonist{
     //prepare a Protagonist for a special attack
     public void specialize() {
         _attackRating = .75;
-        _defense = 25;
+        _defense = 15;
     }
 
 
     //revert to normal mode
     public void normalize() {
         _attackRating = .4;
-        _defense = 50;
+        _defense = 25;
     }
 
     public static String about(){
