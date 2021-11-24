@@ -82,6 +82,26 @@ public class YoRPG {
     }
     catch ( IOException e ) { }
 
+
+    s = "Would you like to be a Bruiser, Tank, or Mage?";
+    System.out.println(s);
+
+    try{
+      //instantiate the player's character
+      String type = in.readLine();
+      type = type.toLowerCase();
+      if(type == "bruiser"){
+        Bruiser pat = new Bruiser();
+      }
+      else if(type == "tank"){
+        Tank pat = new Tank();
+      }
+      else if(type == "mage"){
+        Mage pat = new Mage();
+      }
+
+    }
+
     s = "Intrepid protagonist, what doth thy call thyself? (State your name): ";
     System.out.print( s );
 
@@ -90,8 +110,17 @@ public class YoRPG {
     }
     catch ( IOException e ) { }
 
-    //instantiate the player's character
-    pat = new Protagonist( name );
+
+    if(type == "bruiser"){
+      pat = new Bruiser(name);
+    }
+    else if(type == "tank"){
+      pat = new Tank(name);
+    }
+    else if(type == "mage"){
+      pat = new Mage(name);
+    }
+
 
   }//end newGame()
 
