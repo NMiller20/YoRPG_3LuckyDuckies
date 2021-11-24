@@ -101,6 +101,7 @@ public class YoRPG {
       }
 
     }
+    catch(IOException e){}
 
     s = "Intrepid protagonist, what doth thy call thyself? (State your name): ";
     System.out.print( s );
