@@ -29,14 +29,14 @@ public class Bruiser extends Protagonist{
 
     //prepare a Protagonist for a special attack
     public void specialize() {
-        _attack = .75;
+        _attackRating = .75;
         _defense = 20;
     }
 
 
     //revert to normal mode
     public void normalize() {
-        _attack = .4;
+        _attackRating = .4;
         _defense = 40;
     }
 

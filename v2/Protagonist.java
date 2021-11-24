@@ -1,6 +1,6 @@
 public class Protagonist extends Character{
 
-
+  private String _name = "J. Doe";
 
     /**
       default constructor
@@ -11,7 +11,7 @@ public class Protagonist extends Character{
         _hitPts = 125;
         _strength = 100;
         _defense = 40;
-        _attack = .4;
+        _attackRating = .4;
     }
 
 
@@ -32,14 +32,14 @@ public class Protagonist extends Character{
 
     //prepare a Protagonist for a special attack
     public void specialize() {
-        _attack = .75;
+        _attackRating = .75;
         _defense = 20;
     }
 
 
     //revert to normal mode
     public void normalize() {
-        _attack = .4;
+        _attackRating = .4;
         _defense = 40;
     }
 
