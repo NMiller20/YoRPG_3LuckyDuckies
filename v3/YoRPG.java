@@ -132,6 +132,8 @@ public class YoRPG {
     else {
 	    System.out.println( "\nLo, yonder monster approacheth!" );
 
+
+      int dice = (int)(Math.random()*3);
 	    smaug = new Monster();
 
 	    while( smaug.isAlive() && pat.isAlive() ) {
