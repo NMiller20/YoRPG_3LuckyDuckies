@@ -107,18 +107,21 @@ public class YoRPG {
       
 	  try {
 	    type = Integer.parseInt( in.readLine() )    
-		  type = type.toLowerCase();
-		  if(type = 1){
+		  if(type == 1){
 			pat = new Bruiser(name);
 		  }
-		  else if(type = 2){
+		  else if(type == 2){
 			pat = new Tank(name);
 		  }
-		  else if(type = 3){
+		  else if(type == 3){
 			pat = new Mage(name);
 		  }
-		  else if(type = 4) {
-			 System.out.println 
+		  else if(type == 4) {
+			  String discr = "Descriptions"; 
+			  discr += Bruiser.about(); 
+			  discr += Tank.about(); 
+			  discr += Mage.about(); 
+			  System.out.println(discr); 
 		  }
 	  }  catch(IOException e){
 	}
