@@ -1,12 +1,5 @@
-public class Protagonist_three extends Protagonist{
+public class Mage extends Protagonist{
 
-    // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
-    private String _name = "J. Doe";
-    private int _hitPts;
-    private int _strength;
-    private int _defense;
-    private double _attack;
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
     /**
