@@ -100,19 +100,19 @@ public class YoRPG {
       type = in.readLine();
       type = type.toLowerCase();
       if(type.equals("bruiser")){
-        Bruiser pat = new Bruiser(name);
+        pat = new Bruiser(name);
       }
       else if(type.equals("tank")){
-        Tank pat = new Tank(name);
+        pat = new Tank(name);
       }
       else if(type.equals("mage")){
-        Mage pat = new Mage(name);
+        pat = new Mage(name);
       }
 
     }
     catch(IOException e){}
 
-pat = new Protagonist( name );
+
 
   }//end newGame()
 
