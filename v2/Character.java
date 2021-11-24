@@ -1,8 +1,8 @@
 public class Character {
-  public protected int _hitPts; // same as health
-  public protected int _strength;
-  public protected int _defense;
-  public protected double _attackRating;
+  public int _hitPts; // same as health
+  public int _strength;
+  public int _defense;
+  public double _attackRating;
 
 
   public boolean isAlive() {
