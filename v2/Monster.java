@@ -8,7 +8,7 @@
     **/
     public Monster() {
       _hitPts = 200;
-      _strength = 20 + (int)( Math.random() * 10 ); // [20,30)
+      _strength = 60 + (int)( Math.random() * 10 ); // [60,70)
       _defense = 20;
       _attackRating = 1;
     }
