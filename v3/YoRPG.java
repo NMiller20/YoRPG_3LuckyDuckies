@@ -83,6 +83,14 @@ public class YoRPG {
     }
     catch ( IOException e ) { }
 
+    s = "Intrepid protagonist, what doth thy call thyself? (State your name): ";
+    System.out.print( s );
+
+    try {
+      name = in.readLine();
+    }
+    catch(IOException e){
+    }
 
     s = "Would you like to be a Bruiser, Tank, or Mage?";
     System.out.println(s);
@@ -92,36 +100,17 @@ public class YoRPG {
       type = in.readLine();
       type = type.toLowerCase();
       if(type.equals("bruiser")){
-        Bruiser pat = new Bruiser();
+        Bruiser pat = new Bruiser(name);
       }
       else if(type.equals("tank")){
-        Tank pat = new Tank();
+        Tank pat = new Tank(name);
       }
       else if(type.equals("mage")){
-        Mage pat = new Mage();
+        Mage pat = new Mage(name);
       }
 
     }
     catch(IOException e){}
-
-    s = "Intrepid protagonist, what doth thy call thyself? (State your name): ";
-    System.out.print( s );
-
-    try {
-	    name = in.readLine();
-      if(type.equals("bruiser")){
-        pat = new Bruiser(name);
-      }
-      else if(type.equals("tank")){
-        pat = new Tank(name);
-      }
-      else if(type.equals("mage")){
-        pat = new Mage(name);
-      }
-
-    }
-    catch ( IOException e ) { }
-
 
 
 
