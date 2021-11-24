@@ -6,11 +6,12 @@ public class Tank extends Protagonist{
       pre:  instance vars are declared
       post: initializes instance vars.
       **/
-    public Protagonist() {
-        _hitPts = 125;
-        _strength = 100;
-        _defense = 40;
-        _attack = .4;
+    public Tank() {
+      _name = "Tank";
+        _hitPts = 250;
+        _strength = 75;
+        _defense = 80;
+        _attackRating = .4;
     }
 
 
@@ -19,7 +20,7 @@ public class Tank extends Protagonist{
       pre:  instance vars are declared
       post: initializes instance vars. _name is set to input String.
       **/
-    public Protagonist( String name ) {
+    public Tank( String name ) {
         this();
         _name = name;
     }

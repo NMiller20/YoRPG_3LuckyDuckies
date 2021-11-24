@@ -8,10 +8,11 @@ public class Bruiser extends Protagonist{
       post: initializes instance vars.
       **/
     public Bruiser() {
-        _hitPts = 125;
-        _strength = 100;
-        _defense = 40;
-        _attack = .4;
+      _name = "Bruiser";
+        _hitPts = 150;
+        _strength = 125;
+        _defense = 50;
+        _attackRating = .4;
     }
 
 

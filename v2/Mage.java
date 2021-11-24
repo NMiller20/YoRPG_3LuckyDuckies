@@ -7,11 +7,12 @@ public class Mage extends Protagonist{
       pre:  instance vars are declared
       post: initializes instance vars.
       **/
-    public Protagonist() {
-        _hitPts = 125;
-        _strength = 100;
+    public Mage() {
+      _name = "Mage";
+        _hitPts = 100;
+        _strength = 175;
         _defense = 40;
-        _attack = .4;
+        _attackRating = .4;
     }
 
 
@@ -20,7 +21,7 @@ public class Mage extends Protagonist{
       pre:  instance vars are declared
       post: initializes instance vars. _name is set to input String.
       **/
-    public Protagonist( String name ) {
+    public Mage( String name ) {
         this();
         _name = name;
     }
