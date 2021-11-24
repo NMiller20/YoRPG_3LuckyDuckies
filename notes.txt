@@ -7,3 +7,21 @@ The Cambrilevar:
 The Cambrilevar has the unique ability to transform itself from any form into an arrow, its preferred form. As an arrow, it can achieve speeds above the speed of sound, allowing it to attack those around it in a terrifying and seemingly random fashion, but at great risk to itself.
 The Salvisanguin: 
 Resembling a vermillion penguin, the Salvisanguin heals itself after being wounded by concentrating its life force to a special place inside of it, then circulating parts of it in the areas of its wounds. Because its favorite food is fish, its presence can generally be smelled by those around it. 
+
+
+(Imperiphor = good at defense; ok at attack
+Cambrilevar = good at attack; really bad at defense and mediocre in terms of health
+Salvisanguin = has some mechanism to replenish health)
+
+
+American: 
+Wielding nothing except an automatic rifle, the American attempts compensates for its foolhardiness with its boldness and choice of weapon. While it is often spotted butt naked and lacking supplies in the middle of the tundra, it maintains a sense of adventure and thoroughly enjoys its missions.  
+Wizard: 
+The Wizard is extraordinarily knowledgeable about its surroundings, and strategizes its battles meticulously. However, wary about ruining its enchanted blue and silver robes, it generally prefers to avoid conflict. 
+Dryad: 
+Unique among creatures in not visibly being alive, the Dryad generally prefers to disguise itself as an recently departed member of its forest community, to which it is extremely loyal. Its main goal is to protect its forest, as it has for thousands of years. 
+
+
+(American – good attack; very poor defense; slightly lower health
+Wizard – Good defense; slightly higher health
+Dryad – extremely good health)
