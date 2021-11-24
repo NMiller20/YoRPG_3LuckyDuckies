@@ -2,7 +2,7 @@ public class Character {
   protected int _hitPts; // same as health
   protected int _strength;
   protected int _defense;
-  protected double _attack;
+  protected double _attackRating;
 
 
   public boolean isAlive() {
@@ -22,7 +22,7 @@ public class Character {
 
   public int attack( Character opponent ) {
 
-    int damage = (int)( (_strength * _attack) - opponent.getDefense() );
+    int damage = (int)( (_strength * _attackRating) - opponent.getDefense() );
     //System.out.println( "\t\t**DIAG** damage: " + damage );
 
     if ( damage < 0 )
