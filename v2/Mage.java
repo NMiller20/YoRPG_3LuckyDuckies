@@ -12,7 +12,7 @@ public class Mage extends Protagonist{
         _hitPts = 100;
         _strength = 175;
         _defense = 40;
-        _attackRating = .4;
+        _attackRating = 1;
     }
 
 
@@ -27,20 +27,17 @@ public class Mage extends Protagonist{
     }
 
 
-    // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
-    public String getName() { return _name; }
-
 
     //prepare a Protagonist for a special attack
     public void specialize() {
-        _attackRating = .75;
-        _defense = 20;
+        _attackRating = 3;
+        _defense = 10;
     }
 
 
     //revert to normal mode
     public void normalize() {
-        _attackRating = .4;
+        _attackRating = 1;
         _defense = 40;
     }
 
