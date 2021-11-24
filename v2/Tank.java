@@ -10,7 +10,7 @@ public class Tank extends Protagonist{
       _name = "Tank";
         _hitPts = 250;
         _strength = 75;
-        _defense = 80;
+        _defense = 60;
         _attackRating = 1;
     }
 
@@ -30,14 +30,14 @@ public class Tank extends Protagonist{
     //prepare a Protagonist for a special attack
     public void specialize() {
         _attackRating = 2;
-        _defense = 65;
+        _defense = 45;
     }
 
 
     //revert to normal mode
     public void normalize() {
         _attackRating = 1;
-        _defense = 80;
+        _defense = 60;
     }
 
     public static String about(){
