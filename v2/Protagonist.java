@@ -1,12 +1,5 @@
 public class Protagonist extends Character{
 
-    // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
-    private String _name = "J. Doe";
-    private int _hitPts;
-    private int _strength;
-    private int _defense;
-    private double _attack;
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
     /**
@@ -36,14 +29,14 @@ public class Protagonist extends Character{
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
     public String getName() { return _name; }
 
-  
+
     //prepare a Protagonist for a special attack
     public void specialize() {
         _attack = .75;
         _defense = 20;
     }
 
-    
+
     //revert to normal mode
     public void normalize() {
         _attack = .4;
