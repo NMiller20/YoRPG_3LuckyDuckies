@@ -98,6 +98,7 @@ public class YoRPG {
 	s += "\t1: Bruiser\n";
     s += "\t2: Tank\n";
     s += "\t3: Mage\n";
+	s += "\t4: More info about each\n";
     s += "Selection: ";
 	  
 	System.out.println(s);
@@ -115,6 +116,9 @@ public class YoRPG {
 		  }
 		  else if(type = 3){
 			pat = new Mage(name);
+		  }
+		  else if(type = 4) {
+			 System.out.println 
 		  }
 	  }  catch(IOException e){
 	}
