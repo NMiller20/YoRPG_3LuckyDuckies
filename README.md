@@ -13,6 +13,15 @@
  * Cleaned up all Protagonist/Monster subclasses so that their code does not override methods/instance vars originally declared in Protagonist/Monster/Character.java
  * Created about methods for all subclasses.
 
+v2 to v3 changes:
+* Players can now choose a protagonist subclass to play as 
+* Implemented a RNG function so that all three monster subclasses have equal chance of being encountered.
+* Adjusted stats for all subclasses for more balanced gameplay.
+
+v3 to v4 changes:
+* Before choosing a Protagonist subclass, players have the option to view about descriptions for all Protagonist subclasses.
+* 
+
 TO DO LIST FOR US!!
 - DISCO / QCC
 - CREATE EDIT HISTORY FOR ALL VERSION CHANGES
