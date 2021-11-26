@@ -111,7 +111,7 @@ public class YoRPG {
     System.out.println(discr);
 */
 	  try {
-	    type = Integer.parseInt( in.readLine() )
+	    type = Integer.parseInt( in.readLine() );
 		  if(type == 1){
 			pat = new Bruiser(name);
 		  }
