@@ -93,7 +93,7 @@ public class YoRPG {
     }
 
 
-    String a;
+    String a="";
     a += "\nChoose your form of greatnesss: \n";
   	a += "\t1: Bruiser\n";
     a += "\t2: Tank\n";
