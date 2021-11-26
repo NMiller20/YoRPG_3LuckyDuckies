@@ -92,7 +92,7 @@ public class YoRPG {
     catch(IOException e){
     }
 
-    //instantiate the player's character
+
     String a;
     a += "\nChoose your form of greatnesss: \n";
   	a += "\t1: Bruiser\n";
@@ -103,23 +103,21 @@ public class YoRPG {
 	System.out.println(a);
 
 
+  //instantiate the player's character
+  try {
+ 	    type = Integer.parseInt( in.readLine() )
 
-  try{
-   //instantiate the player's character
-     type = in.readLine();
-     type = type.toLowerCase();
-     if(type.equals("bruiser")){
-       pat = new Bruiser(name);
-     }
-     else if(type.equals("tank")){
-       pat = new Tank(name);
-     }
-     else if(type.equals("mage")){
-       pat = new Mage(name);
-     }
-	  }catch(IOException e){
-	}
-
+ 		  if(type == 1){
+ 			pat = new Bruiser(name);
+ 		  }
+ 		  else if(type == 2){
+ 			pat = new Tank(name);
+ 		  }
+ 		  else if(type == 3){
+ 			pat = new Mage(name);
+ 		  }
+ 	  }  catch(IOException e){
+ 	}
 
 
 
@@ -219,7 +217,7 @@ public class YoRPG {
     YoRPG game = new YoRPG();
     int encounters = 0;
     while( encounters < MAX_ENCOUNTERS ) {
-    if ( !game.playTurn() ){
+    if ( !game.playTurn() )
     break;
     encounters++;
     System.out.println();
