@@ -105,7 +105,7 @@ public class YoRPG {
 
   //instantiate the player's character
   try {
- 	    type = Integer.parseInt( in.readLine() )
+ 	    type = Integer.parseInt( in.readLine() );
 
  		  if(type == 1){
  			pat = new Bruiser(name);
