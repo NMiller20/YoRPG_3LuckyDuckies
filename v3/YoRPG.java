@@ -93,30 +93,31 @@ public class YoRPG {
     }
 
     //instantiate the player's character
-      
+
     s += "\nChoose your form of greatnesss: \n";
 	s += "\t1: Bruiser\n";
     s += "\t2: Tank\n";
     s += "\t3: Mage\n";
     s += "Selection: ";
-	  
+
 	System.out.println(s);
 
 
-      
-	  try {
-	    type = Integer.parseInt( in.readLine() )    
-		  type = type.toLowerCase();
-		  if(type = 1){
-			pat = new Bruiser(name);
-		  }
-		  else if(type = 2){
-			pat = new Tank(name);
-		  }
-		  else if(type = 3){
-			pat = new Mage(name);
-		  }
-	  }  catch(IOException e){
+
+  try{
+   //instantiate the player's character
+     type = in.readLine();
+     type = type.toLowerCase();
+     if(type.equals("bruiser")){
+       pat = new Bruiser(name);
+     }
+     else if(type.equals("tank")){
+       pat = new Tank(name);
+     }
+     else if(type.equals("mage")){
+       pat = new Mage(name);
+     }
+	  }catch(IOException e){
 	}
 
 
@@ -209,9 +210,9 @@ public class YoRPG {
 
 
   public static void main( String[] args ) {
-	Tank gurk = new Tank("gurk"); 
-	System.out.println( gurk.about() ); 
-	  
+	Tank gurk = new Tank("gurk");
+	System.out.println( gurk.about() );
+
     //As usual, move the begin-comment bar down as you progressively
     //test each new bit of functionality...
 
