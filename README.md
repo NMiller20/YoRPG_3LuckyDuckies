@@ -20,7 +20,7 @@ v2 to v3 changes:
 
 v3 to v4 changes:
 * Before choosing a Protagonist subclass, players have the option to view about descriptions for all Protagonist subclasses.
-* 
+* Edited about descriptions so that they print out all atk/def/hp/etc. stats too
 
 TO DO LIST FOR US!!
 - DISCO / QCC
