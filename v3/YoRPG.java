@@ -210,8 +210,7 @@ public class YoRPG {
 
 
   public static void main( String[] args ) {
-	Tank gurk = new Tank("gurk");
-	System.out.println( gurk.about() );
+
 
     //As usual, move the begin-comment bar down as you progressively
     //test each new bit of functionality...
@@ -220,7 +219,7 @@ public class YoRPG {
     YoRPG game = new YoRPG();
     int encounters = 0;
     while( encounters < MAX_ENCOUNTERS ) {
-    if ( !game.playTurn() )
+    if ( !game.playTurn() ){
     break;
     encounters++;
     System.out.println();
