@@ -93,14 +93,14 @@ public class YoRPG {
     }
 
     //instantiate the player's character
+    String a;
+    a += "\nChoose your form of greatnesss: \n";
+  	a += "\t1: Bruiser\n";
+    a += "\t2: Tank\n";
+    a += "\t3: Mage\n";
+    a += "Selection: ";
 
-    s += "\nChoose your form of greatnesss: \n";
-	s += "\t1: Bruiser\n";
-    s += "\t2: Tank\n";
-    s += "\t3: Mage\n";
-    s += "Selection: ";
-
-	System.out.println(s);
+	System.out.println(a);
 
 
 
