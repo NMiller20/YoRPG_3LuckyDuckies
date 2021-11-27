@@ -68,7 +68,7 @@ public class YoRPG {
   public void newGame() {
     String s;
     String name = "";
-    String type ;
+    int type ;
     s = "~~~ Welcome to Ye Olde RPG! ~~~\n";
 
     s += "\nChoose your difficulty: \n";
@@ -92,40 +92,52 @@ public class YoRPG {
     catch(IOException e){
     }
 
-    //instantiate the player's character
-      Tank.about();
-    s += "\nChoose your form of greatnesss: \n";
-	s += "\t1: Bruiser\n";
-    s += "\t2: Tank\n";
-    s += "\t3: Mage\n";
 
-    s += "Selection: ";
+    String a="";
+    a += "\nChoose your form of greatnesss: \n";
+  	a += "\t1: Bruiser\n";
+    a += "\t2: Tank\n";
+    a += "\t3: Mage\n";
+    a += "\t4: More info on Bruisers";
+    a += "\t5: More info on Tanks";
+    a += "\t6: More info on Mages";
+    a += "Selection: ";
 
-	System.out.println(s);
-/*
-  else if(type == 4) {
-    String discr = "Descriptions";
-    discr += Bruiser.about();
-    discr += Tank.about();
-    discr += Mage.about();
-    System.out.println(discr);
-*/
-	  try {
-	    type = Integer.parseInt( in.readLine() );
-		  if(type == 1){
-			pat = new Bruiser(name);
-		  }
-		  else if(type == 2){
-			pat = new Tank(name);
-		  }
-		  else if(type == 3){
-			pat = new Mage(name);
-		  }
+	System.out.println(a);
+  type = Integer.parseInt( in.readLine() );
 
-		  }
-	    catch(IOException e){
-	}
+  //instantiate the player's character
+  try {
+    while(type <=7){
+       if(type == 1){
+   			pat = new Bruiser(name);
+        break;
+ 		  }
+ 		  else if(type == 2){
+   			pat = new Tank(name);
+        break;
+ 		  }
+ 		  else if(type == 3){
+   			pat = new Mage(name);
+        break;
+      else if(type == 4) {
+        System.out.println(Bruiser.about());
+        System.out.println(a);
+        type = Integer.parseInt( in.readLine() );
+ 		  }
+      else if(type ==5){
+        System.out.println(Tank.about());
+        System.out.println(a);
+        type = Integer.parseInt( in.readLine());
+      }
+      else if(type ==6){
+        System.out.println(Mage.about());
+        System.out.println(a);
+        type = Integer.parseInt( in.readLine());
+      }
 
+ 	  }  catch(IOException e){
+ 	}
 
 
 
@@ -216,8 +228,7 @@ public class YoRPG {
 
 
   public static void main( String[] args ) {
-	Tank gurk = new Tank("gurk");
-	System.out.println( gurk.about() );
+
 
     //As usual, move the begin-comment bar down as you progressively
     //test each new bit of functionality...
