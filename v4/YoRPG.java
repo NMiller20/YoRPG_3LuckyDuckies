@@ -112,7 +112,7 @@ public class YoRPG {
   //instantiate the player's character
   try {
     type = Integer.parseInt( in.readLine() );
-    while(type <7&&type>0){
+    while(1==1){ //1==1 is so that the loop repeats infinitely unless it hits a break
        if(type == 1){
    			pat = new Bruiser(name);
         break;
@@ -126,18 +126,23 @@ public class YoRPG {
         break;
       }
       else if(type == 4) {
-        System.out.println(Bruiser.about());
+        System.out.println(\tBruiser.about());
         System.out.println(a);
         type = Integer.parseInt( in.readLine() );
  		  }
       else if(type ==5){
-        System.out.println(Tank.about());
+        System.out.println(\tTank.about());
         System.out.println(a);
         type = Integer.parseInt( in.readLine());
       }
       else if(type ==6){
-        System.out.println(Mage.about());
+        System.out.println(\tMage.about());
         System.out.println(a);
+        type = Integer.parseInt( in.readLine());
+      }
+      else{
+        System.out.println("\n\tNot valid input value.
+        Choose a number between 1 and 6 inclusive.");
         type = Integer.parseInt( in.readLine());
       }
 
