@@ -79,10 +79,17 @@ public class YoRPG {
     System.out.print( s );
 
     try {
+      difficulty = Integer.parseInt( in.readLine() );
+      while(true){
 
-	    difficulty = Integer.parseInt( in.readLine() );
       if(difficulty>=1 && difficulty <=3){
+        break;
       }
+      else{
+        System.out.println("\n\tNot a valid input. Please select value between 1 and 3 inclusive.");
+        difficulty = Integer.parseInt( in.readLine() );
+      }
+    }
     }
     catch ( IOException e ) { }
 
