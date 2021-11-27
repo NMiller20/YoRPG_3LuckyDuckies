@@ -79,7 +79,10 @@ public class YoRPG {
     System.out.print( s );
 
     try {
+
 	    difficulty = Integer.parseInt( in.readLine() );
+      if(difficulty>=1 && difficulty <=3){
+      }
     }
     catch ( IOException e ) { }
 
@@ -98,10 +101,10 @@ public class YoRPG {
   	a += "\t1: Bruiser\n";
     a += "\t2: Tank\n";
     a += "\t3: Mage\n";
-    a += "\t4: More info on Bruisers";
-    a += "\t5: More info on Tanks";
-    a += "\t6: More info on Mages";
-    a += "Selection: ";
+    a += "\t4: More info on Bruisers\n";
+    a += "\t5: More info on Tanks\n";
+    a += "\t6: More info on Mages\n";
+    a += "\tSelection: \n";
 
 	System.out.println(a);
 
@@ -109,7 +112,7 @@ public class YoRPG {
   //instantiate the player's character
   try {
     type = Integer.parseInt( in.readLine() );
-    while(type <=7){
+    while(type <7&&type>0){
        if(type == 1){
    			pat = new Bruiser(name);
         break;
