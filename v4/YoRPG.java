@@ -112,7 +112,7 @@ public class YoRPG {
   //instantiate the player's character
   try {
     type = Integer.parseInt( in.readLine() );
-    while(1==1){ //1==1 is so that the loop repeats infinitely unless it hits a break
+    while(true){ //true is so that the loop repeats infinitely unless it hits a break
        if(type == 1){
    			pat = new Bruiser(name);
         break;
