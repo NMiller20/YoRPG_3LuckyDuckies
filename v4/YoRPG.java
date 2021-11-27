@@ -120,6 +120,7 @@ public class YoRPG {
  		  else if(type == 3){
    			pat = new Mage(name);
         break;
+      }
       else if(type == 4) {
         System.out.println(Bruiser.about());
         System.out.println(a);
@@ -136,7 +137,8 @@ public class YoRPG {
         type = Integer.parseInt( in.readLine());
       }
 
- 	  }  catch(IOException e){
+ 	  }
+  }  catch(IOException e){
  	}
 
 
