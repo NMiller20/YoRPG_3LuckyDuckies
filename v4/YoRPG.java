@@ -141,7 +141,7 @@ public class YoRPG {
         type = Integer.parseInt( in.readLine());
       }
       else{
-        System.out.println("\n\tNot valid input value.);
+        System.out.println("\n\tNot valid input value.");
         System.out.println("Choose a number between 1 and 6 inclusive.");
         type = Integer.parseInt( in.readLine());
       }
