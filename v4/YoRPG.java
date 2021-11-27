@@ -126,23 +126,23 @@ public class YoRPG {
         break;
       }
       else if(type == 4) {
-        System.out.println(\tBruiser.about());
+        System.out.println(Bruiser.about());
         System.out.println(a);
         type = Integer.parseInt( in.readLine() );
  		  }
       else if(type ==5){
-        System.out.println(\tTank.about());
+        System.out.println(Tank.about());
         System.out.println(a);
         type = Integer.parseInt( in.readLine());
       }
       else if(type ==6){
-        System.out.println(\tMage.about());
+        System.out.println(Mage.about());
         System.out.println(a);
         type = Integer.parseInt( in.readLine());
       }
       else{
-        System.out.println("\n\tNot valid input value.
-        Choose a number between 1 and 6 inclusive.");
+        System.out.println("\n\tNot valid input value.);
+        System.out.println("Choose a number between 1 and 6 inclusive.");
         type = Integer.parseInt( in.readLine());
       }
 
