@@ -23,4 +23,4 @@ public class Cambrilevar extends Monster {
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
 
 
-  }//end class Cambrilevar
+  //end class Cambrilevar
