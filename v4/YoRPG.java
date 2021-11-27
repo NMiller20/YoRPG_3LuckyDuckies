@@ -104,10 +104,11 @@ public class YoRPG {
     a += "Selection: ";
 
 	System.out.println(a);
-  type = Integer.parseInt( in.readLine() );
+
 
   //instantiate the player's character
   try {
+    type = Integer.parseInt( in.readLine() );
     while(type <=7){
        if(type == 1){
    			pat = new Bruiser(name);
