@@ -122,18 +122,18 @@ public class YoRPG {
     while(true){ //true is so that the loop repeats infinitely unless it hits a break
        if(type == 1){
    			Protagonist pat = new Bruiser(name);
-        pat = new Tank(name);
         break;
  		  }
  		  else if(type == 2){
-   			pat = new Tank(name);
+   			Protagonist pat = new Tank(name);
         break;
  		  }
  		  else if(type == 3){
-   			pat = new Mage(name);
+   			Protagonist pat = new Mage(name);
         break;
       }
       else if(type == 4) {
+        pat = new Bruiser(name);
         System.out.println(Bruiser.about());
         System.out.println(a);
         type = Integer.parseInt( in.readLine() );
