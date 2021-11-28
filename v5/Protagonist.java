@@ -48,7 +48,7 @@ public class Protagonist extends Character{
     // but at the price of losing 10 health for each dodge for being a coward.
     public void dodge(){
       _defense =100000;
-      _strength =0;
+      _attackRating =0;
       _hitPts -= 10;
     }
 
