@@ -1,12 +1,17 @@
 public class Salvisanguin extends Monster {
 
   public static String about(){
+      Monster test = new Salvisanguin();
       String s = "ABOUT:";
       s += "\nResembling a vermillion penguin, the Salvisanguin is an annoying little monster to deal with.";
       s += "\nBy concentrating its life force to a special place inside of it, then circulating parts of it, ";
       s += "\nit is able to generate a large number of total health points at the cost of a significantly decreased attack stat.";
       s += "\nBecause its favorite food is fish, its presence can generally ";
       s += "\nbe smelled by those around it. ";
+      s += "\n\tHEALTH:" + test._hitPts;
+      s += "\n\tSTRENGTH:" + test._strength;
+      s += "\n\tDEFENSE:" + test._defense;
+      s += "\n\tATTACK RATING:" + test._attackRating;
      return s;
   }
   public Salvisanguin() {

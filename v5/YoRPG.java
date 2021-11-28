@@ -226,6 +226,7 @@ public class YoRPG {
 
 
         System.out.println("\n" + pat.getName() + " is at " + pat._hitPts + " health.");
+        System.out.println("\n The monster is at " + smaug._hitPts + " health.");
 	    }//end while
 
 	    //option 1: you & the monster perish
