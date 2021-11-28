@@ -41,7 +41,7 @@ public class Bruiser extends Protagonist{
     }
 
     public static String about(){
-      Protagonist pat = new Bruiser(name);
+      Protagonist pat = new Bruiser();
         String s = "ABOUT:";
         s += "\n\tBruisers are built for close combat!";
         s += "\n\tBruisers have higher total health points as well as higher strength and defense, but not as high as mages or tanks which are specialized!";
