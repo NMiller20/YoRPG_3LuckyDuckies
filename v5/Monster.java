@@ -19,7 +19,7 @@
       roll = (int)(Math.random()*3);
       int damage = (int)( (_strength * _attackRating) - opponent.getDefense() );
       if(roll == 2){
-        System.out.println("\t\tOUCH! You got unlucky! Ye Olde Monster unlocked a brief powerup.")
+        System.out.println("\t\tOUCH! You got unlucky! Ye Olde Monster unlocked a brief powerup.");
         damage = damage * 3;
       }
 
