@@ -22,6 +22,7 @@ v3 to v4 changes:
 * Before choosing a Protagonist subclass, players have the option to view about descriptions for all Protagonist subclasses.
 * Edited about descriptions so that they print out all atk/def/hp/etc. stats too
 * Added safeguard measures so that when users choose difficulty >3 or try to choose a Protagonist subclass unavailable, users are prompted to input an input that is valid.
+* Added to the about fxns so that they also display Protagonist subclass stats now.
 
 TO DO LIST FOR US!!
 - DISCO / QCC
