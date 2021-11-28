@@ -47,8 +47,8 @@ public class Protagonist extends Character{
     //if you're lucky, you can dodge special attacks from monsters through dodging
     // but at the price of losing 10 health for each dodge for being a coward.
     public void dodge(){
-      _defense +=100000;
-      _strength -=100000;
+      _defense =100000;
+      _strength =0;
       _hitPts -= 10;
     }
 

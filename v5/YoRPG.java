@@ -202,7 +202,7 @@ public class YoRPG {
         // ...but if you get hit, you take more damage.
         try {
           System.out.println( "\nDo you feel brave today, intrepid adventurer?" );
-          System.out.println( "\t1: Nope, not today.");
+          System.out.println( "\n\t1: Nope, not today.");
           System.out.println("\n\t2: Most definitely I do! \n\t3: OH GOODNESS I'M SCARED LET ME DODGE");
           i = Integer.parseInt( in.readLine() );
         }
@@ -219,11 +219,6 @@ public class YoRPG {
         d1 = pat.attack( smaug );
         d2 = smaug.attack( pat );
 
-        //to reverse the effects of dodge
-        if (i==3){
-          pat._defense -= 100000;
-          pat._strength += 100000;
-        }
 
         System.out.println( "\n" + pat.getName() + " dealt " + d1 +" points of damage.");
 
