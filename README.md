@@ -24,9 +24,13 @@ v3 to v4 changes:
 * Added safeguard measures so that when users choose difficulty >3 or try to choose a Protagonist subclass unavailable, users are prompted to input an input that is valid.
 * Added to the about fxns so that they also display Protagonist subclass stats now.
 
+v4 to v5 changes:
+* Protagonists have the new option to dodge, taking 0 damage and dealing 0 damage, but they lose 10 health every time they dodge for being a coward.
+* Monsters now have a 1 out of 3 chance of unlocking a brief powerup, where their damage is multiplied by 3. You can test your luck by seeing if you can dodge a powerup attack.
+* Salvisanguins heal 10 health each round.
+
 TO DO LIST FOR US!!
 - DISCO / QCC
-- ADD STRING DESCRIPTION WITH ALL STATS
 - REPLACE CURRENT FILES TO THE V3 FILES
 - TIME SPENT
 - PLEASE CHANGE MONSTER STATS TO BALANCE THEM
