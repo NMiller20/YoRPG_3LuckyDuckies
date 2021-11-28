@@ -45,10 +45,10 @@ public class Tank extends Protagonist{
         s += "\nTanks are perfect for the front line. ";
         s += "\nTanks are purposed for sustaining large damage amounts, but this is at the price of low strength.";
         s += "\nTanks have vastly higher health points and defense stats";
-        s += "\n\tHEALTH:" + this._hitPts;
-        s += "\n\tSTRENGTH:" + this._strength;
-        s += "\n\tDEFENSE:" + this._defense;
-        s += "\n\tATTACK RATING:" + this._attackRating;
+        s += "\n\tHEALTH:" + Tank._hitPts;
+        s += "\n\tSTRENGTH:" + Tank._strength;
+        s += "\n\tDEFENSE:" + Tank._defense;
+        s += "\n\tATTACK RATING:" + Tank._attackRating;
        return s;
     }
     public static void main(String[] args) {
