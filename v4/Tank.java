@@ -41,7 +41,7 @@ public class Tank extends Protagonist{
     }
 
     public static String about(){
-        test = new Tank();
+        Protagonist test = new Tank();
         String s = "ABOUT:";
         s += "\nTanks are perfect for the front line. ";
         s += "\nTanks are purposed for sustaining large damage amounts, but this is at the price of low strength.";

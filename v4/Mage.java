@@ -42,7 +42,7 @@ public class Mage extends Protagonist{
     }
 
     public static String about(){
-        test = new Mage();
+        Protagonist test = new Mage();
         String s = "ABOUT:";
         s += "\nMages are perfect for long range combat!";
         s += "\nThey have vastly increased strength, but as a result, mages suffer from low health and low defense. ";
