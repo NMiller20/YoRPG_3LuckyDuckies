@@ -121,8 +121,8 @@ public class YoRPG {
     type = Integer.parseInt( in.readLine() );
     while(true){ //true is so that the loop repeats infinitely unless it hits a break
        if(type == 1){
-   			pat = new Bruiser(name);
-        pat = new Tank(name);
+   			Protagonist pat = new Bruiser(name);
+        Protagonist pat = new Tank(name);
         break;
  		  }
  		  else if(type == 2){
