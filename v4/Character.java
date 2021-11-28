@@ -5,6 +5,8 @@ public class Character {
   public double _attackRating;
 
 
+
+
   public boolean isAlive() {
     return _hitPts > 0;
   }
