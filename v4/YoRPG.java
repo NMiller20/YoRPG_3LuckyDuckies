@@ -133,7 +133,7 @@ public class YoRPG {
         break;
       }
       else if(type == 4) {
-        pat = new Bruiser(name);
+        
         System.out.println(Bruiser.about());
         System.out.println(a);
         type = Integer.parseInt( in.readLine() );
