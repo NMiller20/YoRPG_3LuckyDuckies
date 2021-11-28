@@ -48,8 +48,8 @@ public class Bruiser extends Protagonist{
         /*s += "\n\tHEALTH:" + Bruiser._hitPts;
         s += "\n\tSTRENGTH:" + Bruiser._strength;
         s += "\n\tDEFENSE:" + Bruiser._defense;
-      */  s += "\n\tATTACK RATING:" + Bruiser._attackRating;
-       return s;
+        s += "\n\tATTACK RATING:" + Bruiser._attackRating;
+       */return s;
     }
     public static void main(String[] args) {
         System.out.println(about());
