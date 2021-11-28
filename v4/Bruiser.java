@@ -45,10 +45,10 @@ public class Bruiser extends Protagonist{
         s += "\n\tBruisers are built for close combat!";
         s += "\n\tBruisers have higher total health points as well as higher strength and defense, but not as high as mages or tanks which are specialized!";
         s += "\n\tBruisers are well rounded fighters but don't have an especially high stat.";
-        s += "\n\tHEALTH:" + Bruiser._hitPts;
+        /*s += "\n\tHEALTH:" + Bruiser._hitPts;
         s += "\n\tSTRENGTH:" + Bruiser._strength;
         s += "\n\tDEFENSE:" + Bruiser._defense;
-        s += "\n\tATTACK RATING:" + Bruiser._attackRating;
+      */  s += "\n\tATTACK RATING:" + Bruiser._attackRating;
        return s;
     }
     public static void main(String[] args) {
