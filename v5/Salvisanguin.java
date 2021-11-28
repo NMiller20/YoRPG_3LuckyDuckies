@@ -35,8 +35,7 @@ public class Salvisanguin extends Monster {
       damage = 0;
 
     opponent.lowerHP( damage );
-    this();
-    heal(10);
+    _hitPts += 10;
     return damage;
   }//end attack
 
