@@ -194,31 +194,43 @@ public class YoRPG {
       }
 
 
+
 	    while( smaug.isAlive() && pat.isAlive() ) {
 
         // Give user the option of using a special attack:
         // If you land a hit, you incur greater damage,
         // ...but if you get hit, you take more damage.
         try {
-          System.out.println( "\nDo you feel lucky?" );
-          System.out.println( "\t1: Nay.\n\t2: Aye!" );
+          System.out.println( "\nDo you feel brave today, intrepid adventurer?" );
+          System.out.println( "\t1: Nope, not today.");
+          System.out.println("\n\t2: Most definitely I do! \n\t3: OH GOODNESS I'M SCARED LET ME DODGE");
           i = Integer.parseInt( in.readLine() );
         }
         catch ( IOException e ) { }
 
         if ( i == 2 )
           pat.specialize();
+
+        if (i==3)
+          pat.dodge();
         else
           pat.normalize();
 
         d1 = pat.attack( smaug );
         d2 = smaug.attack( pat );
 
-        System.out.println( "\n" + pat.getName() + " dealt " + d1 +
-                            " points of damage.");
+        //to reverse the effects of dodge
+        if (i==3){
+          pat._defense -= 100000;
+          pat._strength += 100000;
+        }
 
-        System.out.println( "\n" + "Ye Olde Monster smacked " + pat.getName() +
-                            " for " + d2 + " points of damage.");
+        System.out.println( "\n" + pat.getName() + " dealt " + d1 +" points of damage.");
+
+        System.out.println( "\n" + "Ye Olde Monster smacked " + pat.getName() +" for " + d2 + " points of damage.");
+
+
+        System.out.println("\n" + pat.getName() + " is at " + pat._hitPts + " health.");
 	    }//end while
 
 	    //option 1: you & the monster perish

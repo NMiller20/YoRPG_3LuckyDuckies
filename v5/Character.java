@@ -20,7 +20,19 @@ public class Character {
   public void lowerHP(int damageTaken){
     _hitPts -= damageTaken;
   }
+  /*
+  public void lowerDefense(int loweredBy){
+    _defense -= loweredBy;
+  }
 
+  public void heal(int healBy){
+    _hitPts += healBy;
+  }
+
+  public void increaseStrength(int strongerBy){
+    _strength += strongerBy;
+  }
+  */
 
   public int attack( Character opponent ) {
 
