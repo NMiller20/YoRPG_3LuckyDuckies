@@ -203,7 +203,7 @@ public class YoRPG {
         try {
           System.out.println( "\nDo you feel brave today, intrepid adventurer?" );
           System.out.println( "\n\t1: Nope, not today.");
-          System.out.println("\n\t2: Most definitely I do! \n\t3: OH GOODNESS I'M SCARED LET ME DODGE");
+          System.out.println("\n\t2: Most definitely I do! \n\t3: OH GOODNESS I'M SCARED LET ME DODGE\n");
           i = Integer.parseInt( in.readLine() );
         }
         catch ( IOException e ) { }
