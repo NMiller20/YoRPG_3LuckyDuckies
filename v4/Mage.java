@@ -42,14 +42,15 @@ public class Mage extends Protagonist{
     }
 
     public static String about(){
+        test = new Mage();
         String s = "ABOUT:";
         s += "\nMages are perfect for long range combat!";
         s += "\nThey have vastly increased strength, but as a result, mages suffer from low health and low defense. ";
-        /*s += "\n\tHEALTH:" + Mage._hitPts;
-        s += "\n\tSTRENGTH:" + Mage._strength;
-        s += "\n\tDEFENSE:" + Mage._defense;
-        s += "\n\tATTACK RATING:" + Mage._attackRating;
-      */ return s;
+        s += "\n\tHEALTH:" + test._hitPts;
+        s += "\n\tSTRENGTH:" + test._strength;
+        s += "\n\tDEFENSE:" + test._defense;
+        s += "\n\tATTACK RATING:" + test._attackRating;
+      return s;
     }
     public static void main(String[] args) {
         System.out.println(about());
