@@ -9,7 +9,7 @@ public class Tank extends Protagonist{
     public Tank() {
         _name = "Tank";
         _hitPts = 1400;
-        _strength = 100;
+        _strength = 150;
         _defense = 30;
         _attackRating = 1;
     }
