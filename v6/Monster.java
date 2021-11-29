@@ -1,5 +1,5 @@
 public class Monster extends Character {
-public int roll;
+public static int roll;
 
     /**
      default constructor
