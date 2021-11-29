@@ -8,7 +8,7 @@
 Bruisers have higher total health points as well as higher strength and defense, but not as high as mages
 or tanks which are specialized! Bruisers are well rounded fighters with no one area that they excel at.
 * HEALTH: 1200
-* STRENGTH: 125
+* STRENGTH: 175
 * DEFENSE: 25
 * ATTACK RATING: 1.0
              
@@ -17,7 +17,7 @@ or tanks which are specialized! Bruisers are well rounded fighters with no one a
 Tanks are purposed for sustaining large damage amounts, but this is at the price of low strength.
 Tanks have vastly higher health points and defense stats
 * HEALTH: 1400
-* STRENGTH: 100
+* STRENGTH: 150
 * DEFENSE: 30
 * ATTACK RATING: 1.0
          
@@ -26,7 +26,7 @@ Tanks have vastly higher health points and defense stats
 Mages use a variety of elemental magic to attack their enemies from long ranges.
 They have vastly increased strength, but as a result, mages suffer from low health and low defense.
 * HEALTH: 800
-* STRENGTH: 175
+* STRENGTH: 250
 * DEFENSE: 10
 * ATTACK RATING: 1.0
 
@@ -86,7 +86,7 @@ v3 to v4 changes:
 
 v4 to v5 changes:
 * Protagonists have the new option to dodge, taking 0 damage and dealing 0 damage, but they lose 10 health every time they dodge for being a coward.
-* Monsters now have a 1 out of 3 chance of unlocking a brief powerup, where their damage is multiplied by 3. You can test your luck by seeing if you can dodge a powerup attack.
+* Monsters now have a 1 out of 10 chance of unlocking a brief powerup, where their damage is multiplied by 3. You can test your luck by seeing if you can dodge a powerup attack.
 * Salvisanguins heal 10 health each round.
 * Modified subclass stats for more balanced gameplay.
 
@@ -94,9 +94,10 @@ v5 to v6 changes:
 * Fixed some formatting issues with the text and whatnot
 * Specified monster names in encounter and battle messages
 * Created a mechanism that allows the player to type YES after reading ABOUT to generate the selection chart as opposed to the selection chart being generated in tandem. This prevents the user from having to scroll up <3
+* Added a natural built in dodging rng mechanism, where both monsters and protagonists have a 1/10 chance of taking no damage for a round while still dealing damage.
+* Added passives for each monster subclass so that after each round, each monster subclass has a special passive characteristic. Salvisanguins heal, Cambrilevars lose health from self destruction, and Imperiphors gain defense.
 
 TO DO LIST FOR US!!
-- burn for cambrilevar? incr def for imp
-- monster 1/3 rng dodge fxn
+
 - if time, ultimate ability fxns
 
