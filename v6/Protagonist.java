@@ -50,7 +50,7 @@ public class Protagonist extends Character{
           System.out.println("Oh no! Ye Olde Monster dodged, taking 0 damage.");
           damage = 0;
         }
-        return damage;
+
 
 
         //System.out.println( "\t\t**DIAG** damage: " + damage );
