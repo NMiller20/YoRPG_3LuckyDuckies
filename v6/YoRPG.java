@@ -140,6 +140,8 @@ public class YoRPG {
                     if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
+                    }else{
+                      System.out.print("Continue on reading then");
                     }
                 } else if (type == 5) {
                     System.out.println("\n" + Tank.about() + "\n");
@@ -149,6 +151,8 @@ public class YoRPG {
                     if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
+                    } else{
+                      System.out.print("Continue on reading then");
                     }
                 } else if (type == 6) {
                     System.out.println("\n" + Mage.about() + "\n");
@@ -158,6 +162,8 @@ public class YoRPG {
                     if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
+                    }else{
+                      System.out.print("Continue on reading then");
                     }
                 } else {
                     System.out.println("\nNot valid input value.");
