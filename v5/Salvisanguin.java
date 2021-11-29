@@ -8,7 +8,7 @@ public class Salvisanguin extends Monster {
       s += "\nit is able to generate a large number of total health points at the cost of a significantly decreased attack stat.";
       s += "\nThis monster heals for a small amount each round.";
       s += "\n\tHEALTH:" + test._hitPts;
-      s += "\n\tSTRENGTH:" + test._strength;
+      s += "\n\tSTRENGTH:[100,125)";
       s += "\n\tDEFENSE:" + test._defense;
       s += "\n\tATTACK RATING:" + test._attackRating;
      return s;

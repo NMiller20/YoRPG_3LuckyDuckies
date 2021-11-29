@@ -8,7 +8,7 @@ public static String about(){
         s += "\nexterior. It is believed to be native to Staten Island, and insists, to anyone who will ";
         s += "\nlisten, that its homeland is the most important part of New York City.";
         s += "\n\tHEALTH:" + test._hitPts;
-        s += "\n\tSTRENGTH:" + test._strength;
+        s += "\n\tSTRENGTH:[50,100)" ;
         s += "\n\tDEFENSE:" + test._defense;
         s += "\n\tATTACK RATING:" + test._attackRating;
         return s;

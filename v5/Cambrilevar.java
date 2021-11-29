@@ -7,7 +7,7 @@ public class Cambrilevar extends Monster {
         s += "\nAs an arrow, it can achieve speeds above the speed of sound, ";
         s += "\nallowing it to attack those around it in a terrifying and seemingly random fashion, but at great risk to itself.";
         s += "\n\tHEALTH:" + test._hitPts;
-        s += "\n\tSTRENGTH:" + test._strength;
+        s += "\n\tSTRENGTH:[75, 150)" ;
         s += "\n\tDEFENSE:" + test._defense;
         s += "\n\tATTACK RATING:" + test._attackRating;
        return s;

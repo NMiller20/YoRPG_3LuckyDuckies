@@ -20,6 +20,16 @@ QCC:
 * When would you employ try...catch... blocks?
 * What does IOException do? What happens after an exception is caught?
 
+OUR DRIVER MODS:
+  * Players can now choose a protagonist subclass to play as
+  * Implemented a RNG function so that all three monster subclasses have equal chance of being encountered.
+  * Before choosing a Protagonist subclass, players have the option to view about descriptions for all Protagonist subclasses.
+  * Added about descriptions so that they print out all atk/def/hp/etc. stats along wtih description too
+  * Added safeguard measures so that when users choose difficulty >3 or try to choose a Protagonist subclass unavailable, users are prompted to input an input that is valid.
+  * Protagonists have the new option to dodge, taking 0 damage and dealing 0 damage, but they lose 10 health every time they dodge for being a coward.
+  * Monsters now have a 1 out of 3 chance of unlocking a brief powerup, where their damage is multiplied by 3. You can test your luck by seeing if you can dodge a powerup attack.
+  * Salvisanguins heal 10 health each round.
+
  **********************************************/
 
 import java.io.*;
