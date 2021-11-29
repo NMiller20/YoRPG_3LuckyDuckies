@@ -51,7 +51,7 @@ public class Protagonist extends Character{
           damage = 0;
         }
         return damage;
-      }
+
 
         //System.out.println( "\t\t**DIAG** damage: " + damage );
 
