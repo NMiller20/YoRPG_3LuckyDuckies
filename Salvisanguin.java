@@ -9,10 +9,12 @@ public class Salvisanguin extends Monster {
         s += "\nThis monster heals for a small amount each round.";
         s += "\nBecause its favorite food is fish, its presence can generally ";
         s += "\nbe smelled by those around it. ";
+        s += "\n\t========STATS=======";
         s += "\n\tHEALTH:" + test._hitPts;
         s += "\n\tSTRENGTH:[100,125)";
         s += "\n\tDEFENSE:" + test._defense;
         s += "\n\tATTACK RATING:" + test._attackRating;
+        s += "\n\t====================";
         return s;
     }
     public Salvisanguin() {
