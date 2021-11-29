@@ -41,7 +41,7 @@ public class Cambrilevar extends Monster {
       opponent.lowerHP( damage );
       _hitPts -= 50; //self destruction :(
       return damage;
-
+}
     public Cambrilevar() {
         _hitPts = 350;
         _strength = 75 + (int)( Math.random() * 75); // [75, 150)

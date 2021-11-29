@@ -48,7 +48,7 @@ public class Imperiphor extends Monster {
       opponent.lowerHP( damage );
       _defense += 5;
       return damage;
-
+}
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
 
 }//end class
