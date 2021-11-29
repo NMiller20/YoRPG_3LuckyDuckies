@@ -121,7 +121,7 @@ public class YoRPG {
         try {
             type = Integer.parseInt( in.readLine() );
             Scanner readInput = new Scanner (System.in);
-            String readString = readInput.next();
+            String readString = "";
             while(true) { //true is so that the loop repeats infinitely unless it hits a break
                 if (type == 1) {
                     pat = new Bruiser(name);
@@ -136,7 +136,8 @@ public class YoRPG {
                     System.out.println("\n" + Bruiser.about() + "\n");
                     System.out.print("Are thy done reading? Type YES to continue. ");
                     readString = readInput.next();
-                    if ( readString.equals("YES") ){
+                    readString = readString.toLowerCase();
+                    if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
                     }
@@ -144,7 +145,8 @@ public class YoRPG {
                     System.out.println("\n" + Tank.about() + "\n");
                     System.out.print("Are thy done reading? Type YES to continue. ");
                     readString = readInput.next();
-                    if ( readString.equals("YES") ){
+                    readString = readString.toLowerCase();
+                    if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
                     }
@@ -152,7 +154,8 @@ public class YoRPG {
                     System.out.println("\n" + Mage.about() + "\n");
                     System.out.print("Are thy done reading? Type YES to continue. ");
                     readString = readInput.next();
-                    if ( readString.equals("YES") ){
+                    readString = readString.toLowerCase();
+                    if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
                     }
