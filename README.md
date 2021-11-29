@@ -2,6 +2,66 @@
 #### TNPG: 3 Lucky Duckies
 ####  Roster: Ziying Jian, Nora Miller, Gloria Lee
 
+## Protagonist Subclasses:
+### Bruiser:  
+#### Bruisers are built for close combat!
+Bruisers have higher total health points as well as higher strength and defense, but not as high as mages
+or tanks which are specialized! Bruisers are well rounded fighters with no one area that they excel at.
+* HEALTH:1200
+* STRENGTH:125
+* DEFENSE:25
+* ATTACK RATING:0.4
+             
+### Tank: 
+#### Tanks are perfect for the front line!
+Tanks are purposed for sustaining large damage amounts, but this is at the price of low strength.
+Tanks have vastly higher health points and defense stats
+* HEALTH:1400
+* STRENGTH:100
+* DEFENSE:30
+* ATTACK RATING:1.0
+         
+### Mage: 
+#### Mages are perfect for long range combat!
+Mages use a variety of elemental magic to attack their enemies from long ranges.
+They have vastly increased strength, but as a result, mages suffer from low health and low defense.
+* HEALTH:800
+* STRENGTH:175
+* DEFENSE:10
+* ATTACK RATING:1.0
+
+## Monster Subclasses:
+### Cambrilevar:  
+The Cambrilevar has the unique ability to transform itself from any form into an arrow, its preferred form.
+As an arrow, it can achieve speeds above the speed of sound,
+allowing it to attack those around it in a terrifying and seemingly random fashion, but at great risk to itself.
+* HEALTH:350
+* STRENGTH:[75, 150)
+* DEFENSE:20
+* ATTACK RATING:1
+
+             
+### Imperiphor: 
+Roughly twice the size of a bear, the Imperiphor is a menace to any warrior who fights
+from a medium or long distance, due to the difficulty of penetrating its scaly, metallic
+exterior. It is believed to be native to Staten Island, and insists, to anyone who will 
+listen, that its homeland is the most important part of New York City.
+* HEALTH:400
+* STRENGTH:[50, 100)
+* DEFENSE:50
+* ATTACK RATING:1
+         
+### Salvisanguin: 
+Resembling a vermillion penguin, the Salvisanguin is an annoying little monster to deal with.
+By concentrating its life force to a special place inside of it, then circulating parts of it, 
+it is able to generate a large number of total health points at the cost of a significantly decreased attack stat.
+This monster heals for a small amount each round."
+* HEALTH:500
+* STRENGTH:[100,125)
+* DEFENSE:10
+* ATTACK RATING:1
+---
+          
  v0 to v1 Changes: 
  * After using care package found in library, achieved compilability on YoRPG.java, Character.java, Protagonist.java and Monster.java. 
  * Modified Protagonist.java and Monster.java to be subclasses on Character.java
