@@ -4,7 +4,7 @@
 APCS
 Lab01 -- An Adventurer is You!
 2021-11-22
-time spent: 1.5 hrs
+time spent: 7 hrs
 
 DISCO:
 * Having a try...catch... block is good standard convention for accounting for errors in user input
@@ -20,6 +20,13 @@ QCC:
 * When would you employ try...catch... blocks?
 * What does IOException do? What happens after an exception is caught?
 
+v4 to v5 changes:
+
+* Protagonists have the new option to dodge, taking 0 damage and dealing 0 damage, but they lose 10 health every time they dodge for being a coward.
+* Monsters now have a 1 out of 10 chance of unlocking a brief powerup, where their damage is multiplied by 3. You can test your luck by seeing if you can dodge a powerup attack.
+* Salvisanguins heal 10 health each round.
+* Modified subclass stats for more balanced gameplay.
+
 OUR DRIVER MODS:
   * Players can now choose a protagonist subclass to play as
   * Implemented a RNG function so that all three monster subclasses have equal chance of being encountered.
@@ -28,7 +35,8 @@ OUR DRIVER MODS:
   * Added safeguard measures so that when users choose difficulty >3 or try to choose a Protagonist subclass unavailable, users are prompted to input an input that is valid.
   * Protagonists have the new option to dodge, taking 0 damage and dealing 0 damage, but they lose 10 health every time they dodge for being a coward.
   * Monsters now have a 1 out of 3 chance of unlocking a brief powerup, where their damage is multiplied by 3. You can test your luck by seeing if you can dodge a powerup attack.
-  * Salvisanguins heal 10 health each round.
+  * Monsters now have passives. Salvisanguins heal, Imperiphors increase defense, and Cambrilevars "self destruct" after each round.
+  * Protagonists and Monsters have a 1/10 chance of naturally dodging attacks!
 
  **********************************************/
 

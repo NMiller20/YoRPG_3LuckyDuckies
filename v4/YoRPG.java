@@ -4,7 +4,7 @@
 APCS
 Lab01 -- An Adventurer is You!
 2021-11-22
-time spent: 1.5 hrs
+time spent: 7 hrs
 
 DISCO:
 * Having a try...catch... block is good standard convention for accounting for errors in user input
@@ -20,7 +20,13 @@ QCC:
 * When would you employ try...catch... blocks?
 * What does IOException do? What happens after an exception is caught?
 
- **********************************************/
+v3 to v4 changes:
+
+* Before choosing a Protagonist subclass, players have the option to view about descriptions for all Protagonist subclasses.
+* Edited about descriptions so that they print out all atk/def/hp/etc. stats too
+* Added safeguard measures so that when users choose difficulty >3 or try to choose a Protagonist subclass unavailable, users are prompted to input an input that is valid.
+* Added to the about fxns so that they also display Protagonist subclass stats now.
+**********************************************/
 
 import java.io.*;
 import java.util.*;

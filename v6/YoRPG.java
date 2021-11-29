@@ -4,7 +4,7 @@
  APCS
  Lab01 -- An Adventurer is You!
  2021-11-22
- time spent: 1.5 hrs
+ time spent: 7 hrs
 
  DISCO:
  * Having a try...catch... block is good standard convention for accounting for errors in user input
@@ -21,7 +21,13 @@
  * What functionality does java.io and java.util each provide?
  * When would you employ try...catch... blocks?
  * What does IOException do? What happens after an exception is caught?
+ v5 to v6 changes:
 
+ * Fixed some formatting issues with the text and whatnot
+ * Specified monster names in encounter and battle messages
+* Created a mechanism that allows the player to type YES after reading ABOUT to generate the selection chart as opposed to the selection chart being generated in tandem. This prevents the user from having to scroll up <3
+ * Added a natural built in dodging rng mechanism, where both monsters and protagonists have a 1/10 chance of taking no damage for a round while still dealing damage.
+ * Added passives for each monster subclass so that after each round, each monster subclass has a special passive characteristic. Salvisanguins heal, Cambrilevars lose health from self destruction, and Imperiphors gain defense.
  **********************************************/
 
 import java.io.*;

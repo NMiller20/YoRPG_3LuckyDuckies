@@ -4,7 +4,7 @@
 APCS
 Lab01 -- An Adventurer is You!
 2021-11-22
-time spent: 1.5 hrs
+time spent: 7 hrs
 
 DISCO:
 * Having a try...catch... block is good standard convention for accounting for errors in user input
@@ -20,6 +20,12 @@ QCC:
 * When would you employ try...catch... blocks?
 * What does IOException do? What happens after an exception is caught?
 
+v1 to v2 changes:
+
+* Created subclasses of Protagonist: Bruiser, Tank, and Mage
+* Created subclasses of Monster: Salvisanguin, Imperiphor, Cambrilevar
+* Cleaned up all Protagonist/Monster subclasses so that their code does not override methods/instance vars originally declared in Protagonist/Monster/Character.java
+* Created about methods for all subclasses.
  **********************************************/
 
 import java.io.*;

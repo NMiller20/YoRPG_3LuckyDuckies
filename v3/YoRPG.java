@@ -4,7 +4,7 @@
 APCS
 Lab01 -- An Adventurer is You!
 2021-11-22
-time spent: 1.5 hrs
+time spent: 7 hrs
 
 DISCO:
 * Having a try...catch... block is good standard convention for accounting for errors in user input
@@ -19,6 +19,12 @@ QCC:
 * What functionality does java.io and java.util each provide?
 * When would you employ try...catch... blocks?
 * What does IOException do? What happens after an exception is caught?
+
+v2 to v3 changes:
+
+* Players can now choose a protagonist subclass to play as
+* Implemented a RNG function so that all three monster subclasses have equal chance of being encountered.
+* Adjusted stats for all subclasses for more balanced gameplay.
 
  **********************************************/
 

@@ -4,7 +4,7 @@
 APCS
 Lab01 -- An Adventurer is You!
 2021-11-22
-time spent: 1.5 hrs
+time spent: 7 hrs
 
 DISCO:
 * Having a try...catch... block is good standard convention for accounting for errors in user input
@@ -20,6 +20,11 @@ QCC:
 * When would you employ try...catch... blocks?
 * What does IOException do? What happens after an exception is caught?
 
+v0 to v1 Changes:
+
+* After using care package found in library, achieved compilability on YoRPG.java, Character.java, Protagonist.java and Monster.java.
+* Modified Protagonist.java and Monster.java to be subclasses on Character.java
+* Added methods isAlive, getDefense, lowerHP, and attack to Character.java.
  **********************************************/
 
 import java.io.*;
