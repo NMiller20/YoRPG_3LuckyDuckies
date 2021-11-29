@@ -1,4 +1,5 @@
 public class Monster extends Character {
+public int roll;
 
     /**
      default constructor
@@ -18,11 +19,14 @@ public class Monster extends Character {
 
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
     public int attack( Character opponent ) {
-        int roll = (int)(Math.random()*3);
+        roll = (int)(Math.random()*3);
         int damage = (int)( (_strength * _attackRating) - opponent.getDefense() );
         if(roll == 2){
             System.out.println("\t\tOUCH! You got unlucky! Ye Olde Monster unlocked a brief powerup.");
             damage = damage * 3;
+        }else if (roll == 1){
+          System.out.println("\t\tLucky you! Ye Olde Monster missed, so you took 0 damage");
+          damage = 0; //monster dodged! uh oh!
         }
 
         //System.out.println( "\t\t**DIAG** damage: " + damage );

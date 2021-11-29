@@ -238,6 +238,11 @@ public class YoRPG {
 
                 System.out.println( "\n" + smaug + " smacked " + pat.getName() +
                         " for " + d2 + " points of damage.");
+
+                System.out.println( "\n" + pat.getName() + " dealt " + d1 +" points of damage.");
+
+                System.out.println( "\n" + smaug + " smacked " + pat.getName() +" for " + d2 + " points of damage.");
+
             }//end while
 
             //option 1: you & the monster perish

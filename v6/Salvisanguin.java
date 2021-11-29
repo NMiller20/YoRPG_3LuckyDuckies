@@ -17,7 +17,7 @@ public class Salvisanguin extends Monster {
     }
     public Salvisanguin() {
         _hitPts = 500;
-        _strength = 100 + (int)( Math.random() * 125 ); // [100,125)
+        _strength = 100 + (int)( Math.random() * 25 ); // [100,125)
         _defense = 10;
         _attackRating = 1;
     }

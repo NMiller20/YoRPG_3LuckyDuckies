@@ -121,7 +121,7 @@ public class YoRPG {
         try {
             type = Integer.parseInt( in.readLine() );
             Scanner readInput = new Scanner (System.in);
-            String readString = readInput.next();
+            String readString = "";
             while(true) { //true is so that the loop repeats infinitely unless it hits a break
                 if (type == 1) {
                     pat = new Bruiser(name);
@@ -136,25 +136,34 @@ public class YoRPG {
                     System.out.println("\n" + Bruiser.about() + "\n");
                     System.out.print("Are thy done reading? Type YES to continue. ");
                     readString = readInput.next();
-                    if ( readString.equals("YES") ){
+                    readString = readString.toLowerCase();
+                    if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
+                    }else{
+                      System.out.print("Continue on reading then");
                     }
                 } else if (type == 5) {
                     System.out.println("\n" + Tank.about() + "\n");
                     System.out.print("Are thy done reading? Type YES to continue. ");
                     readString = readInput.next();
-                    if ( readString.equals("YES") ){
+                    readString = readString.toLowerCase();
+                    if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
+                    } else{
+                      System.out.print("Continue on reading then");
                     }
                 } else if (type == 6) {
                     System.out.println("\n" + Mage.about() + "\n");
                     System.out.print("Are thy done reading? Type YES to continue. ");
                     readString = readInput.next();
-                    if ( readString.equals("YES") ){
+                    readString = readString.toLowerCase();
+                    if ( readString.equals("yes") ){
                         System.out.print(a);
                         type = Integer.parseInt(in.readLine());
+                    }else{
+                      System.out.print("Continue on reading then");
                     }
                 } else {
                     System.out.println("\nNot valid input value.");
@@ -223,6 +232,10 @@ public class YoRPG {
 
                 d1 = pat.attack( smaug );
                 d2 = smaug.attack( pat );
+                if (roll == 0){
+                  System.out.println("Oh no! "+smaug+" dodged your attack, taking 0 damage." )
+                  d1 = 0;
+                }
 
                 System.out.println( "\n" + pat.getName() + " dealt " + d1 +
                         " points of damage.");
