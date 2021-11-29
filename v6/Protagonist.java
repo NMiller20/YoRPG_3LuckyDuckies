@@ -43,6 +43,25 @@ public class Protagonist extends Character{
         _defense = 40;
     }
 
+    public int attack( Character opponent ) {
+
+        int damage = (int)( (_strength * _attackRating) - opponent.getDefense() );
+        if(Monster.roll == 0){
+          System.out.println("Oh no! Ye Olde Monster dodged, taking 0 damage.")
+          damage = 0;
+        }
+        return damage;
+      }
+
+        //System.out.println( "\t\t**DIAG** damage: " + damage );
+
+        if ( damage < 0 )
+            damage = 0;
+
+        opponent.lowerHP( damage );
+
+        return damage;
+    }//end attack
 
     //dodge will allow you to deal no damage and take no damage from monsters
     //if you're lucky, you can dodge special attacks from monsters through dodging

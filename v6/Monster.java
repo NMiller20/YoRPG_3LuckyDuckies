@@ -26,7 +26,7 @@ public int roll;
             damage = damage * 3;
         }else if (roll == 1){
           System.out.println("\t\tLucky you! Ye Olde Monster missed, so you took 0 damage");
-          damage = 0; //monster dodged! uh oh!
+          damage = 0;
         }
 
         //System.out.println( "\t\t**DIAG** damage: " + damage );

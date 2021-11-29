@@ -233,8 +233,10 @@ public class YoRPG {
                 else
                   pat.normalize();
 
+                  d2 = smaug.attack( pat );
                 d1 = pat.attack( smaug );
-                d2 = smaug.attack( pat );
+
+
 
                 System.out.println( "\n" + pat.getName() + " dealt " + d1 +
                         " points of damage.");
