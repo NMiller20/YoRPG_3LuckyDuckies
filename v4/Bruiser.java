@@ -9,7 +9,7 @@ public class Bruiser extends Protagonist{
       **/
     public Bruiser() {
       _name = "Bruiser";
-        _hitPts = 150;
+        _hitPts = 750;
         _strength = 125;
         _defense = 25;
         _attackRating = 1;
@@ -30,7 +30,7 @@ public class Bruiser extends Protagonist{
     //prepare a Protagonist for a special attack
     public void specialize() {
         _attackRating = 2;
-        _defense = 15;
+        _defense = 10;
     }
 
 
@@ -40,7 +40,7 @@ public class Bruiser extends Protagonist{
         _defense = 25;
     }
 
-  
+
     public static String about(){
       Protagonist test = new Bruiser();
         String s = "ABOUT:";

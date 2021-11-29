@@ -9,9 +9,9 @@ public class Mage extends Protagonist{
       **/
     public Mage() {
       _name = "Mage";
-        _hitPts = 100;
+        _hitPts = 400;
         _strength = 175;
-        _defense = 20;
+        _defense = 10;
         _attackRating = 1;
     }
 
@@ -31,14 +31,14 @@ public class Mage extends Protagonist{
     //prepare a Protagonist for a special attack
     public void specialize() {
         _attackRating = 3;
-        _defense = 10;
+        _defense = 0;
     }
 
 
     //revert to normal mode
     public void normalize() {
         _attackRating = 1;
-        _defense = 20;
+        _defense = 10;
     }
 
     public static String about(){

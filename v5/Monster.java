@@ -7,9 +7,9 @@
        post: initializes instance vars.
     **/
     public Monster() {
-      _hitPts = 200;
-      _strength = 60 + (int)( Math.random() * 10 ); // [60,70)
-      _defense = 20;
+      _hitPts = 400;
+      _strength = 75 + (int)( Math.random() * 75 ); // [75,150)
+      _defense = 15;
       _attackRating = 1;
     }
 

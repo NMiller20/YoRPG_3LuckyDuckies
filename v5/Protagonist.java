@@ -8,9 +8,9 @@ public class Protagonist extends Character{
       post: initializes instance vars.
       **/
     public Protagonist() {
-        _hitPts = 125;
-        _strength = 100;
-        _defense = 40;
+        _hitPts = 500;
+        _strength = 50;
+        _defense = 20;
         _attackRating = 1;
     }
 
@@ -33,14 +33,14 @@ public class Protagonist extends Character{
     //prepare a Protagonist for a special attack
     public void specialize() {
         _attackRating = 2;
-        _defense = 20;
+        _defense = 5;
     }
 
 
     //revert to normal mode
     public void normalize() {
         _attackRating = 1;
-        _defense = 40;
+        _defense = 20;
     }
 
     //dodge will allow you to deal no damage and take no damage from monsters

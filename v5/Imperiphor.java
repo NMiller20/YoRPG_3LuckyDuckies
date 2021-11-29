@@ -19,9 +19,9 @@ public static String about(){
     }//end main
 
     public Imperiphor() {
-	_hitPts = 150;
-      _strength = 20 + (int)( Math.random() * 45 ); // [20,65)
-      _defense = 20;
+	_hitPts = 400;
+      _strength = 50 + (int)( Math.random() * 50 ); // [50,100)
+      _defense = 50;
       _attackRating = 1;
     }
 

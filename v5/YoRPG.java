@@ -156,6 +156,7 @@ public class YoRPG {
 
  	  }
   }  catch(IOException e){
+    pat = new Protagonist(name);
  	}
 
 

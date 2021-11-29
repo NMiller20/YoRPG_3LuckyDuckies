@@ -18,10 +18,10 @@ public class Cambrilevar extends Monster {
     }//end main
 
     public Cambrilevar() {
-	_hitPts = 325;
-	_strength = 3 + (int)( Math.random() * 41); // [3, 44)
-	_defense = 35;
-	_attackRating = .6;
+	_hitPts = 350;
+	_strength = 75 + (int)( Math.random() * 75); // [75, 150)
+	_defense = 20;
+	_attackRating = 1;
      }
     }
 

@@ -14,10 +14,10 @@ public class Salvisanguin extends Monster {
      return s;
   }
   public Salvisanguin() {
-    _hitPts = 1000;
-    _strength = 1 + (int)( Math.random() * 3 ); // [1,2)
-    _defense = 20;
-    _attackRating = 0.2;
+    _hitPts = 500;
+    _strength = 100 + (int)( Math.random() * 25 ); // [100,125)
+    _defense = 10;
+    _attackRating = 1;
   }
 
   public int attack( Character opponent ) {
@@ -35,7 +35,7 @@ public class Salvisanguin extends Monster {
       damage = 0;
 
     opponent.lowerHP( damage );
-    _hitPts += 10;
+    _hitPts += 50;
     return damage;
   }//end attack
 
