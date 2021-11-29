@@ -9,10 +9,10 @@ public class Bruiser extends Protagonist{
       **/
     public Bruiser() {
       _name = "Bruiser";
-        _hitPts = 600;
+        _hitPts = 1200;
         _strength = 125;
         _defense = 25;
-        _attackRating = .4;
+        _attackRating = 1;
     }
 
 
@@ -29,14 +29,14 @@ public class Bruiser extends Protagonist{
 
     //prepare a Protagonist for a special attack
     public void specialize() {
-        _attackRating = .75;
+        _attackRating = 2;
         _defense = 15;
     }
 
 
     //revert to normal mode
     public void normalize() {
-        _attackRating = .4;
+        _attackRating = 1;
         _defense = 25;
     }
 
