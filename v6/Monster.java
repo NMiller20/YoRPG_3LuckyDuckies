@@ -19,9 +19,9 @@ public static int roll;
 
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
     public int attack( Character opponent ) {
-        roll = (int)(Math.random()*3);
+        roll = (int)(Math.random()*10);
         int damage = (int)( (_strength * _attackRating) - opponent.getDefense() );
-        if(roll == 2){
+        if(roll == 0){
             System.out.println("\t\tOUCH! You got unlucky! Ye Olde Monster unlocked a brief powerup.");
             damage = damage * 3;
         }else if (roll == 1){
