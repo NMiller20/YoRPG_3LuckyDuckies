@@ -36,7 +36,7 @@ The Cambrilevar has the unique ability to transform itself from any form into an
 As an arrow, it can achieve speeds above the speed of sound,
 allowing it to attack those around it in a terrifying and seemingly random fashion, but at great risk to itself.
 * HEALTH: 350
-* STRENGTH:[75, 150)
+* STRENGTH: [75, 150)
 * DEFENSE: 20
 * ATTACK RATING: 1
 
@@ -47,7 +47,7 @@ from a medium or long distance, due to the difficulty of penetrating its scaly, 
 exterior. It is believed to be native to Staten Island, and insists, to anyone who will 
 listen, that its homeland is the most important part of New York City.
 * HEALTH: 400
-* STRENGTH:[50, 100)
+* STRENGTH: [50, 100)
 * DEFENSE: 50
 * ATTACK RATING: 1
          
@@ -57,9 +57,9 @@ By concentrating its life force to a special place inside of it, then circulatin
 it is able to generate a large number of total health points at the cost of a significantly decreased attack stat.
 This monster heals for a small amount each round."
 * HEALTH: 500
-* STRENGTH:[100,125)
-* DEFENSE:10
-* ATTACK RATING:1
+* STRENGTH: [100,125)
+* DEFENSE: 10
+* ATTACK RATING: 1
 ---
           
  v0 to v1 Changes: 
@@ -93,12 +93,9 @@ v4 to v5 changes:
 v5 to v6 changes:
 * Fixed some formatting issues with the text and whatnote
 * Specified monster names in encounter and battle messages
-* [WIP] a mechanism that allows the player to press ENTER/YES after reading ABOUT to generate the selection chart as opposed to the selection chart being generated in tandem. This prevents the user from having to scroll up
+* Created a mechanism that allows the player to type YES after reading ABOUT to generate the selection chart as opposed to the selection chart being generated in tandem. This prevents the user from having to scroll up <3
 
 TO DO LIST FOR US!!
-- DISCO / QCC
-- REPLACE CURRENT FILES TO THE V3 FILES
-- TIME SPENT
 - burn for cambrilevar? incr def for imp
 - monster 1/3 rng dodge fxn
 - if time, ultimate ability fxns
