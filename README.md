@@ -10,7 +10,7 @@ or tanks which are specialized! Bruisers are well rounded fighters with no one a
 * HEALTH: 1200
 * STRENGTH: 125
 * DEFENSE: 25
-* ATTACK RATING: 0.4
+* ATTACK RATING: 1.0
              
 ### Tank: 
 #### Tanks are perfect for the front line!
@@ -38,7 +38,7 @@ allowing it to attack those around it in a terrifying and seemingly random fashi
 * HEALTH: 350
 * STRENGTH: [75, 150)
 * DEFENSE: 20
-* ATTACK RATING: 1
+* ATTACK RATING: 1.0
 
              
 ### Imperiphor: 
@@ -48,8 +48,8 @@ exterior. It is believed to be native to Staten Island, and insists, to anyone w
 listen, that its homeland is the most important part of New York City.
 * HEALTH: 400
 * STRENGTH: [50, 100)
-* DEFENSE: 50
-* ATTACK RATING: 1
+* DEFENSE: 30
+* ATTACK RATING: 1.0
          
 ### Salvisanguin: 
 Resembling a vermillion penguin, the Salvisanguin is an annoying little monster to deal with.
@@ -59,7 +59,7 @@ This monster heals for a small amount each round."
 * HEALTH: 500
 * STRENGTH: [100,125)
 * DEFENSE: 10
-* ATTACK RATING: 1
+* ATTACK RATING: 1.0
 ---
           
  v0 to v1 Changes: 
@@ -91,7 +91,7 @@ v4 to v5 changes:
 * Modified subclass stats for more balanced gameplay.
 
 v5 to v6 changes:
-* Fixed some formatting issues with the text and whatnote
+* Fixed some formatting issues with the text and whatnot
 * Specified monster names in encounter and battle messages
 * Created a mechanism that allows the player to type YES after reading ABOUT to generate the selection chart as opposed to the selection chart being generated in tandem. This prevents the user from having to scroll up <3
 
