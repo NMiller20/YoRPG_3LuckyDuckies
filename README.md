@@ -11,8 +11,8 @@ or tanks which are specialized! Bruisers are well rounded fighters with no one a
 * STRENGTH: 175
 * DEFENSE: 25
 * ATTACK RATING: 1.0
-             
-### Tank: 
+
+### Tank:
 #### Tanks are perfect for the front line!
 Tanks are purposed for sustaining large damage amounts, but this is at the price of low strength.
 Tanks have vastly higher health points and defense stats
@@ -20,8 +20,8 @@ Tanks have vastly higher health points and defense stats
 * STRENGTH: 150
 * DEFENSE: 30
 * ATTACK RATING: 1.0
-         
-### Mage: 
+
+### Mage:
 #### Mages are perfect for long range combat!
 Mages use a variety of elemental magic to attack their enemies from long ranges.
 They have vastly increased strength, but as a result, mages suffer from low health and low defense.
@@ -40,20 +40,20 @@ allowing it to attack those around it in a terrifying and seemingly random fashi
 * DEFENSE: 20
 * ATTACK RATING: 1.0
 
-             
-### Imperiphor: 
+
+### Imperiphor:
 Roughly twice the size of a bear, the Imperiphor is a menace to any warrior who fights
 from a medium or long distance, due to the difficulty of penetrating its scaly, metallic
-exterior. It is believed to be native to Staten Island, and insists, to anyone who will 
+exterior. It is believed to be native to Staten Island, and insists, to anyone who will
 listen, that its homeland is the most important part of New York City.
 * HEALTH: 400
 * STRENGTH: [50, 100)
 * DEFENSE: 30
 * ATTACK RATING: 1.0
-         
-### Salvisanguin: 
+
+### Salvisanguin:
 Resembling a vermillion penguin, the Salvisanguin is an annoying little monster to deal with.
-By concentrating its life force to a special place inside of it, then circulating parts of it, 
+By concentrating its life force to a special place inside of it, then circulating parts of it,
 it is able to generate a large number of total health points at the cost of a significantly decreased attack stat.
 This monster heals for a small amount each round."
 * HEALTH: 500
@@ -61,12 +61,12 @@ This monster heals for a small amount each round."
 * DEFENSE: 10
 * ATTACK RATING: 1.0
 ---
-          
- v0 to v1 Changes: 
- * After using care package found in library, achieved compilability on YoRPG.java, Character.java, Protagonist.java and Monster.java. 
+
+ v0 to v1 Changes:
+ * After using care package found in library, achieved compilability on YoRPG.java, Character.java, Protagonist.java and Monster.java.
  * Modified Protagonist.java and Monster.java to be subclasses on Character.java
  * Added methods isAlive, getDefense, lowerHP, and attack to Character.java.
- 
+
  v1 to v2 changes:
  * Created subclasses of Protagonist: Bruiser, Tank, and Mage
  * Created subclasses of Monster: Salvisanguin, Imperiphor, Cambrilevar
@@ -74,7 +74,7 @@ This monster heals for a small amount each round."
  * Created about methods for all subclasses.
 
 v2 to v3 changes:
-* Players can now choose a protagonist subclass to play as 
+* Players can now choose a protagonist subclass to play as
 * Implemented a RNG function so that all three monster subclasses have equal chance of being encountered.
 * Adjusted stats for all subclasses for more balanced gameplay.
 
@@ -97,7 +97,9 @@ v5 to v6 changes:
 * Added a natural built in dodging rng mechanism, where both monsters and protagonists have a 1/10 chance of taking no damage for a round while still dealing damage.
 * Added passives for each monster subclass so that after each round, each monster subclass has a special passive characteristic. Salvisanguins heal, Cambrilevars lose health from self destruction, and Imperiphors gain defense.
 
-TO DO LIST FOR US!!
-
-- if time, ultimate ability fxns
-
+---
+#### Ways to Grow our Game:
+* Create ultimate methods for protagonist Subclasses
+* Create a levelling system where the protagonist can increase stats after defeating enough monsters
+* Create a mana system where it costs mana to cast a specialized attack
+* Add more monsters and protagonist subclasses!
