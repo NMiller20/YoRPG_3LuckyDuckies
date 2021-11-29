@@ -22,26 +22,9 @@ public class Salvisanguin extends Monster {
         _attackRating = 1;
     }
 
-    public int attack( Character opponent ) {
-        roll = (int)(Math.random()*10);
-        int damage = (int)( (_strength * _attackRating) - opponent.getDefense() );
-        if(roll == 0){
-            System.out.println("\t\tOUCH! You got unlucky! Ye Olde Monster unlocked a brief powerup.");
-            damage = damage * 3;
-        }else if (roll == 1){
-          System.out.println("\t\tLucky you! Ye Olde Monster missed, so you took 0 damage");
-          damage = 0;
-        }
-
-        //System.out.println( "\t\t**DIAG** damage: " + damage );
-
-        if ( damage < 0 )
-            damage = 0;
-
-      opponent.lowerHP( damage );
+public void passive(){
       _hitPts += 10;
-      return damage;
-    }//end attack
+    }
     public String toString(){
         return "Salvisanguin";
     }

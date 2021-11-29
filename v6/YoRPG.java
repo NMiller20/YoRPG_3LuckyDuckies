@@ -235,6 +235,7 @@ public class YoRPG {
 
                   d2 = smaug.attack( pat );
                 d1 = pat.attack( smaug );
+                smaug.passive();
 
 
 
