@@ -94,4 +94,7 @@ TO DO LIST FOR US!!
 - DISCO / QCC
 - REPLACE CURRENT FILES TO THE V3 FILES
 - TIME SPENT
+- burn for cambrilevar? incr def for imp
+- monster 1/3 rng dodge fxn
+- if time, ultimate ability fxns
 
