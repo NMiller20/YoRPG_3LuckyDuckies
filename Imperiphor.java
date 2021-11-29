@@ -7,10 +7,12 @@ public class Imperiphor extends Monster {
         s += "\nfrom a medium or long distance, due to the difficulty of penetrating its scaly, metallic ";
         s += "\nexterior. It is believed to be native to Staten Island, and insists, to anyone who will ";
         s += "\nlisten, that its homeland is the most important part of New York City.";
+        s += "\n\t========STATS=======";
         s += "\n\tHEALTH:" + test._hitPts;
         s += "\n\tSTRENGTH:[50,100)" ;
         s += "\n\tDEFENSE:" + test._defense;
         s += "\n\tATTACK RATING:" + test._attackRating;
+        s += "\n\t====================";
         return s;
     }
 
