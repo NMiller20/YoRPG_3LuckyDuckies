@@ -35,10 +35,10 @@ They have vastly increased strength, but as a result, mages suffer from low heal
 The Cambrilevar has the unique ability to transform itself from any form into an arrow, its preferred form.
 As an arrow, it can achieve speeds above the speed of sound,
 allowing it to attack those around it in a terrifying and seemingly random fashion, but at great risk to itself.
-* HEALTH:350
+* HEALTH: 350
 * STRENGTH:[75, 150)
-* DEFENSE:20
-* ATTACK RATING:1
+* DEFENSE: 20
+* ATTACK RATING: 1
 
              
 ### Imperiphor: 
@@ -46,17 +46,17 @@ Roughly twice the size of a bear, the Imperiphor is a menace to any warrior who 
 from a medium or long distance, due to the difficulty of penetrating its scaly, metallic
 exterior. It is believed to be native to Staten Island, and insists, to anyone who will 
 listen, that its homeland is the most important part of New York City.
-* HEALTH:400
+* HEALTH: 400
 * STRENGTH:[50, 100)
-* DEFENSE:50
-* ATTACK RATING:1
+* DEFENSE: 50
+* ATTACK RATING: 1
          
 ### Salvisanguin: 
 Resembling a vermillion penguin, the Salvisanguin is an annoying little monster to deal with.
 By concentrating its life force to a special place inside of it, then circulating parts of it, 
 it is able to generate a large number of total health points at the cost of a significantly decreased attack stat.
 This monster heals for a small amount each round."
-* HEALTH:500
+* HEALTH: 500
 * STRENGTH:[100,125)
 * DEFENSE:10
 * ATTACK RATING:1
