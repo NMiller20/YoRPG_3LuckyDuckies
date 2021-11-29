@@ -3,7 +3,7 @@
  3 Lucky Duckies - Ziying Jian, Nora Miller, Gloria Lee
  APCS
  Lab01 -- An Adventurer is You!
- 2021-11-28
+ 2021-11-22
  time spent: 1.5 hrs
 
  DISCO:
@@ -17,11 +17,10 @@
  * toString method must be created in the Monster class because it's a super class of smaug
 
 
- QCC: 
+ QCC:
  * What functionality does java.io and java.util each provide?
  * When would you employ try...catch... blocks?
  * What does IOException do? What happens after an exception is caught?
- * How can we account for an ENTER keystroke?
 
  **********************************************/
 
@@ -72,8 +71,6 @@ public class YoRPG {
         String s;
         String name = "";
         int type ;
-        Scanner readInput = new Scanner (System.in);
-        String readString = readInput.nextLine();
         s = "~~~ Welcome to Ye Olde RPG! ~~~\n";
 
         s += "\nChoose your difficulty: \n";
@@ -123,6 +120,8 @@ public class YoRPG {
         //instantiate the player's character
         try {
             type = Integer.parseInt( in.readLine() );
+            Scanner readInput = new Scanner (System.in);
+            String readString = readInput.next();
             while(true) { //true is so that the loop repeats infinitely unless it hits a break
                 if (type == 1) {
                     pat = new Bruiser(name);
@@ -135,22 +134,28 @@ public class YoRPG {
                     break;
                 } else if (type == 4) {
                     System.out.println("\n" + Bruiser.about() + "\n");
-                    System.out.print("Press ENTER once thy done reading.");
-//                    if(readString != null) {
-//                        System.out.print(readString);
-//                    }
+                    System.out.print("Are thy done reading? Type YES to continue. ");
+                    readString = readInput.next();
+                    if ( readString.equals("YES") ){
+                        System.out.print(a);
+                        type = Integer.parseInt(in.readLine());
+                    }
                 } else if (type == 5) {
-                    System.out.println("\n" + Tank.about());
-                    System.out.println(a);
-                    type = Integer.parseInt(in.readLine());
+                    System.out.println("\n" + Tank.about() + "\n");
+                    System.out.print("Are thy done reading? Type YES to continue. ");
+                    readString = readInput.next();
+                    if ( readString.equals("YES") ){
+                        System.out.print(a);
+                        type = Integer.parseInt(in.readLine());
+                    }
                 } else if (type == 6) {
-                    System.out.println("\n" + Mage.about());
-                    System.out.println(a);
-                    type = Integer.parseInt(in.readLine());
-//                } else if ( readString.isEmpty() ){
-//                    System.out.println("it works!");
-//                    System.out.println(a);
-//                    type = Integer.parseInt(in.readLine());
+                    System.out.println("\n" + Mage.about() + "\n");
+                    System.out.print("Are thy done reading? Type YES to continue. ");
+                    readString = readInput.next();
+                    if ( readString.equals("YES") ){
+                        System.out.print(a);
+                        type = Integer.parseInt(in.readLine());
+                    }
                 } else {
                     System.out.println("\nNot valid input value.");
                     System.out.println("Choose a number between 1 and 6 inclusive.\n");
@@ -204,8 +209,9 @@ public class YoRPG {
                 // If you land a hit, you incur greater damage,
                 // ...but if you get hit, you take more damage.
                 try {
-                    System.out.println( "\nDo you feel lucky?" );
-                    System.out.println( "\t1: Nay.\n\t2: Aye!" );
+                    System.out.println( "\nDo you feel brave today, intrepid adventurer?" );
+                    System.out.println( "\t1: Nope, not today.");
+                    System.out.println("\t2: Most definitely I do! \n\t3: OH GOODNESS I'M SCARED LET ME DODGE");
                     i = Integer.parseInt( in.readLine() );
                 }
                 catch ( IOException e ) { }

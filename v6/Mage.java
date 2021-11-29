@@ -9,9 +9,9 @@ public class Mage extends Protagonist{
      **/
     public Mage() {
         _name = "Mage";
-        _hitPts = 100;
+        _hitPts = 800;
         _strength = 175;
-        _defense = 20;
+        _defense = 10;
         _attackRating = 1;
     }
 

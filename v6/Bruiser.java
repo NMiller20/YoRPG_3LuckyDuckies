@@ -9,7 +9,7 @@ public class Bruiser extends Protagonist{
      **/
     public Bruiser() {
         _name = "Bruiser";
-        _hitPts = 150;
+        _hitPts = 1200;
         _strength = 125;
         _defense = 25;
         _attackRating = .4;
