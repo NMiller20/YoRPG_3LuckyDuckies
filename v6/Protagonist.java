@@ -47,7 +47,7 @@ public class Protagonist extends Character{
 
         int damage = (int)( (_strength * _attackRating) - opponent.getDefense() );
         if(Monster.roll == 0){
-          System.out.println("Oh no! Ye Olde Monster dodged, taking 0 damage.");
+          System.out.println("\t\tOh no! Ye Olde Monster dodged, taking 0 damage.");
           damage = 0;
         }
 
