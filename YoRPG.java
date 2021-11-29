@@ -218,30 +218,37 @@ public class YoRPG {
                 // If you land a hit, you incur greater damage,
                 // ...but if you get hit, you take more damage.
                 try {
-                    System.out.println( "\nDo you feel brave today, intrepid adventurer?" );
-                    System.out.println( "\t1: Nope, not today.");
-                    System.out.println("\t2: Most definitely I do! \n\t3: OH GOODNESS I'M SCARED LET ME DODGE");
-                    i = Integer.parseInt( in.readLine() );
+                  System.out.println( "\nDo you feel brave today, intrepid adventurer?" );
+                  System.out.println( "\t1: Nope, not today.");
+                  System.out.println("\t2: Most definitely I do! \n\t3: OH GOODNESS I'M SCARED LET ME DODGE");
+                  i = Integer.parseInt( in.readLine() );
                 }
                 catch ( IOException e ) { }
 
                 if ( i == 2 )
-                    pat.specialize();
-                else
-                    pat.normalize();
+                  pat.specialize();
 
+                if (i==3)
+                  pat.dodge();
+                else
+                  pat.normalize();
+
+                  d2 = smaug.attack( pat );
                 d1 = pat.attack( smaug );
-                d2 = smaug.attack( pat );
-                if (roll == 0){
-                  System.out.println("Oh no! "+smaug+" dodged your attack, taking 0 damage." )
-                  d1 = 0;
-                }
+                smaug.passive();
+
+
 
                 System.out.println( "\n" + pat.getName() + " dealt " + d1 +
                         " points of damage.");
 
                 System.out.println( "\n" + smaug + " smacked " + pat.getName() +
                         " for " + d2 + " points of damage.");
+
+                System.out.println("\n" + pat.getName() + " is at " + pat._hitPts + " health.");
+                System.out.println("\n The monster is at " + smaug._hitPts + " health.");
+
+
             }//end while
 
             //option 1: you & the monster perish

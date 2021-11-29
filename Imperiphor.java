@@ -24,11 +24,14 @@ public class Imperiphor extends Monster {
 
     public Imperiphor() {
         _hitPts = 400;
-        _strength = 50 + (int)( Math.random() * 100 ); // [35,81)
-        _defense = 20;
+        _strength = 50 + (int)( Math.random() * 50 ); // [50,100)
+        _defense = 30;
         _attackRating = 1;
     }
 
+    public void passive(){
+          _defense +=5;
+        }
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
 
 }//end class

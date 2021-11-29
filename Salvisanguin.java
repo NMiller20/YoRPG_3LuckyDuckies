@@ -17,21 +17,14 @@ public class Salvisanguin extends Monster {
     }
     public Salvisanguin() {
         _hitPts = 500;
-        _strength = 100 + (int)( Math.random() * 125 ); // [100,125)
+        _strength = 100 + (int)( Math.random() * 25 ); // [100,125)
         _defense = 10;
         _attackRating = 1;
     }
 
-    public int attack( Character opponent ) {
-        int roll = 0;
-        roll = (int) (Math.random() * 3);
-        int damage = (int) ((_strength * _attackRating) - opponent.getDefense());
-        if (roll == 2) {
-            System.out.println("\t\tOUCH! You got unlucky! Ye Olde Monster unlocked a brief powerup.");
-            return damage * 3;
-        } return damage;
+public void passive(){
+      _hitPts += 10;
     }
-
     public String toString(){
         return "Salvisanguin";
     }
