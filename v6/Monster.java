@@ -39,5 +39,7 @@ public static int roll;
         return damage;
     }//end attack
 
-
+    public void passive(){
+          _defense +=1;
+        }
 }//end class Monster
