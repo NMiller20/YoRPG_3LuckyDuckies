@@ -7,28 +7,28 @@
 #### Bruisers are built for close combat!
 Bruisers have higher total health points as well as higher strength and defense, but not as high as mages
 or tanks which are specialized! Bruisers are well rounded fighters with no one area that they excel at.
-* HEALTH:1200
-* STRENGTH:125
-* DEFENSE:25
-* ATTACK RATING:0.4
+* HEALTH: 1200
+* STRENGTH: 125
+* DEFENSE: 25
+* ATTACK RATING: 0.4
              
 ### Tank: 
 #### Tanks are perfect for the front line!
 Tanks are purposed for sustaining large damage amounts, but this is at the price of low strength.
 Tanks have vastly higher health points and defense stats
-* HEALTH:1400
-* STRENGTH:100
-* DEFENSE:30
-* ATTACK RATING:1.0
+* HEALTH: 1400
+* STRENGTH: 100
+* DEFENSE: 30
+* ATTACK RATING: 1.0
          
 ### Mage: 
 #### Mages are perfect for long range combat!
 Mages use a variety of elemental magic to attack their enemies from long ranges.
 They have vastly increased strength, but as a result, mages suffer from low health and low defense.
-* HEALTH:800
-* STRENGTH:175
-* DEFENSE:10
-* ATTACK RATING:1.0
+* HEALTH: 800
+* STRENGTH: 175
+* DEFENSE: 10
+* ATTACK RATING: 1.0
 
 ## Monster Subclasses:
 ### Cambrilevar:  
@@ -89,6 +89,11 @@ v4 to v5 changes:
 * Monsters now have a 1 out of 3 chance of unlocking a brief powerup, where their damage is multiplied by 3. You can test your luck by seeing if you can dodge a powerup attack.
 * Salvisanguins heal 10 health each round.
 * Modified subclass stats for more balanced gameplay.
+
+v5 to v6 changes:
+* Fixed some formatting issues with the text and whatnote
+* Specified monster names in encounter and battle messages
+* [WIP] a mechanism that allows the player to press ENTER/YES after reading ABOUT to generate the selection chart as opposed to the selection chart being generated in tandem. This prevents the user from having to scroll up
 
 TO DO LIST FOR US!!
 - DISCO / QCC
